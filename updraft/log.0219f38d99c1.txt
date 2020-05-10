@@ -1,0 +1,51 @@
+0000.007 () Opened log file at time: Thu, 16 Apr 2020 09:28:23 +0000 on https://bojelo.com
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 84M | 88M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 1405498.6 MB
+0000.007 () Opened log file at time: Thu, 16 Apr 2020 09:28:24 +0000 on https://bojelo.com
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 82.4M | 86M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 1405498.6 MB
+0000.011 () Ensuring WP_Filesystem is setup for a restore
+0000.011 () WP_Filesystem is setup and ready for a restore
+0000.017 () Restore job started. Entities to restore: plugins, themes. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.019 () Entity: plugins
+0000.020 () restore_backup(backup_file=backup_2020-04-15-0801_Bojelo_b72088db3c54-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:62:"/homepages/8/d817576993/htdocs/app817638129/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.020 () Unpacking backup... (backup_2020-04-15-0801_Bojelo_b72088db3c54-plugins.zip, 70.8 MB)
+0000.023 () Unzipping backup_2020-04-15-0801_Bojelo_b72088db3c54-plugins.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/874bd883/ using UpdraftPlus_ZipArchive, starting index 0
+0000.298 () Unzip progress: 2773 out of 17537 files (1.5 KB, plugins/js_composer/assets/lib/bower/flexslider/images/bg_play_pause.png)
+0000.470 () Unzip progress: 3774 out of 17537 files (13.1 MB, plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js)
+0000.651 () Unzip progress: 4775 out of 17537 files (29 MB, plugins/buddypress/bp-activity/classes/class-bp-akismet.php)
+0000.809 () Unzip progress: 5776 out of 17537 files (42.3 MB, plugins/buddypress/bp-themes/bp-default/members/single/groups.php)
+0001.078 () Unzip progress: 6777 out of 17537 files (65 MB, plugins/youzer/includes/public/core/hybridauth/Provider/Instagram.php)
+0001.284 () Unzip progress: 7778 out of 17537 files (83.2 MB, plugins/wpforms-lite/includes/admin/builder/panels/class-fields.php)
+0001.453 () Unzip progress: 8779 out of 17537 files (98.8 MB, plugins/brizy/public/editor-build/136-wp/kits/resolves/block1505.json)
+0001.666 () Unzip progress: 9780 out of 17537 files (119.7 MB, plugins/brizy/vendor/bagrinsergiu/brizy-migration-utils/tests/_data/editor-build2/templates/resolves/HopePress.json)
+0001.804 () Unzip progress: 10781 out of 17537 files (125.5 MB, plugins/brizy/vendor/shortpixel/shortpixel-php/lib/ShortPixel/notify/ProgressNotifier.php)
+0002.012 () Unzip progress: 11782 out of 17537 files (141.7 MB, plugins/the-events-calendar/common/vendor/jquery/images/ui-bg_glass_75_dadada_1x400.png)
+0002.171 () Unzip progress: 12783 out of 17537 files (151.3 MB, plugins/the-events-calendar/vendor/tribe-common-libraries/tribe-common-libraries.class.php)
+0002.336 () Unzip progress: 13784 out of 17537 files (167.8 MB, plugins/unyson/framework/extensions/mailer/includes/classes/class-fw-ext-mailer-send-method.php)
+0002.521 () Unzip progress: 14785 out of 17537 files (181.4 MB, plugins/woocommerce/includes/widgets/class-wc-widget-rating-filter.php)
+0002.674 () Unzip progress: 15786 out of 17537 files (189 MB, plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/installers/src/Composer/Installers/ItopInstaller.php)
+0002.903 () Unzip progress: 16787 out of 17537 files (208.9 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Exception/BadMethodCallException.php)
+0003.018 () Unzip progress: 17537 out of 17537 files (219.2 MB, plugins/miniorange-login-openid/includes/images/icons/vkontakte_d.png)
+0003.044 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.044 () Moving old data: can potentially use wp_filesystem method / -old
+0003.044 () Moving old data out of the way...
+0010.430 () Top-level entities being moved: unyson, js_composer, bbpress, buddypress, buddypress-media, envato-market, youzer, brizy, updraftplus
+0010.439 () Moving unpacked backup into place...
+0022.451 () Top-level entities being moved: a3-lazy-load, antispam-bee, bbpress, bp-activity-social-share, brizy, broken-link-checker, buddypress, buddypress-media, envato-market, feedzy-rss-feeds, js_composer, limit-login-attempts-reloaded, mailchimp-for-wp, miniorange-login-openid, the-events-calendar, tinymce-advanced, translatepress-multilingual, unyson, updraftplus, woocommerce, woocommerce-admin, wpforms-lite, youzer, .gitkeep, php.ini, index.php
+0022.523 () Cleaning up rubbish...
+0022.531 () Entity: themes
+0022.531 () restore_backup(backup_file=backup_2020-04-15-0801_Bojelo_b72088db3c54-themes.zip, type=themes, info=a:2:{s:4:"path";s:61:"/homepages/8/d817576993/htdocs/app817638129/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0022.531 () Unpacking backup... (backup_2020-04-15-0801_Bojelo_b72088db3c54-themes.zip, 10.6 MB)
+0022.531 () Unzipping backup_2020-04-15-0801_Bojelo_b72088db3c54-themes.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/fc4228da/ using UpdraftPlus_ZipArchive, starting index 0
+0022.696 () Unzip progress: 1002 out of 1455 files (13.9 MB, themes/olympus/images/main-demo.png)
+0022.771 () Unzip progress: 1455 out of 1455 files (19.3 MB, themes/olympus/svg-icons/happy-face-icon.svg)
+0022.789 () Moving old data: filesystem method / updraft_dir is potentially possible
+0022.789 () Moving old data: can potentially use wp_filesystem method / -old
+0022.789 () Moving old data out of the way...
+0023.735 () Top-level entities being moved: beonepage, olympus, olympus-child, .gitkeep, php.ini, index.php
+0023.735 () Moving unpacked backup into place...
+0024.743 () Top-level entities being moved: beonepage, olympus, olympus-child, .gitkeep, php.ini, index.php
+0024.744 () Cleaning up rubbish...
+0024.757 () Restore successful!
+0024.757 () Restore successful

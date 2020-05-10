@@ -1,0 +1,1248 @@
+0000.000 (0) Opened log file at time: Thu, 16 Apr 2020 03:19:55 +0000 on https://bojelo.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 106.1M | 110M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 1399881.7 MB
+0000.007 (0) Tasks: Backup files:  (schedule: every8hours) Backup DB: 1 (schedule: everyhour)
+0000.008 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.013 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1587005370, seconds_ago=1825)
+0000.022 (0) Set semaphore last lock (d) time to 2020-04-16 03:19:55
+0000.025 (0) Semaphore lock (d) complete
+0000.034 (0) Backup run: resumption=0, nonce=0cba9a378009, file_nonce=0cba9a378009 begun at=1587007195 (0s ago), job type=backup
+0000.043 (0) Scheduling a resumption (1) after 300 seconds (1587007495) in case this run gets aborted
+0000.049 (0) This backup run is not intended for files - skipping
+0000.051 (0) Beginning creation of database dump (WordPress DB)
+0000.056 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.079 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `tmg1h9h024options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1258 bytes total)
+0000.083 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.098 (0) Table tmg1h9h024options: Total expected rows (approximate): 7048
+0000.209 (0) Table tmg1h9h024options: Total rows added: 2841 in 0.11 seconds
+0000.212 (0) Table tmg1h9h024options: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024options.table.gz - 320.5 KB)
+0000.232 (0) Table tmg1h9h024users: Total expected rows (approximate): 26
+0000.235 (0) Table tmg1h9h024users: Total rows added: 26 in 0.00 seconds
+0000.237 (0) Table tmg1h9h024users: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024users.table.gz - 2.7 KB)
+0000.245 (0) Table tmg1h9h024usermeta: Total expected rows (approximate): 753
+0000.251 (0) Table tmg1h9h024usermeta: Total rows added: 753 in 0.00 seconds
+0000.253 (0) Table tmg1h9h024usermeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024usermeta.table.gz - 12.1 KB)
+0000.259 (0) Table tmg1h9h024actionscheduler_actions: Total expected rows (approximate): 58
+0000.264 (0) Table tmg1h9h024actionscheduler_actions: Total rows added: 58 in 0.00 seconds
+0000.266 (0) Table tmg1h9h024actionscheduler_actions: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_actions.table.gz - 2.7 KB)
+0000.274 (0) Table tmg1h9h024actionscheduler_claims: Total expected rows (approximate): 0
+0000.277 (0) Table tmg1h9h024actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0000.279 (0) Table tmg1h9h024actionscheduler_claims: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_claims.table.gz - 0.4 KB)
+0000.287 (0) Table tmg1h9h024actionscheduler_groups: Total expected rows (approximate): 5
+0000.289 (0) Table tmg1h9h024actionscheduler_groups: Total rows added: 5 in 0.00 seconds
+0000.291 (0) Table tmg1h9h024actionscheduler_groups: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_groups.table.gz - 0.4 KB)
+0000.295 (0) Table tmg1h9h024actionscheduler_logs: Total expected rows (approximate): 174
+0000.299 (0) Table tmg1h9h024actionscheduler_logs: Total rows added: 174 in 0.00 seconds
+0000.301 (0) Table tmg1h9h024actionscheduler_logs: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_logs.table.gz - 2.2 KB)
+0000.309 (0) Table tmg1h9h024commentmeta: Total expected rows (approximate): 3
+0000.312 (0) Table tmg1h9h024commentmeta: Total rows added: 3 in 0.00 seconds
+0000.314 (0) Table tmg1h9h024commentmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024commentmeta.table.gz - 0.4 KB)
+0000.319 (0) Table tmg1h9h024comments: Total expected rows (approximate): 2
+0000.321 (0) Table tmg1h9h024comments: Total rows added: 2 in 0.00 seconds
+0000.324 (0) Table tmg1h9h024comments: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024comments.table.gz - 0.8 KB)
+0000.331 (0) Table tmg1h9h024links: Total expected rows (approximate): 0
+0000.333 (0) Table tmg1h9h024links: Total rows added: 0 in 0.00 seconds
+0000.335 (0) Table tmg1h9h024links: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024links.table.gz - 0.4 KB)
+0000.362 (0) Table tmg1h9h024postmeta: Total expected rows (approximate): 12077
+0000.475 (0) Table tmg1h9h024postmeta: binary mysqldump finished (writes: 33) in 0.11 seconds
+0000.478 (0) Table tmg1h9h024postmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024postmeta.table.gz - 163.9 KB)
+0000.485 (0) Table tmg1h9h024posts: Total expected rows (approximate): 1962
+0000.611 (0) Table tmg1h9h024posts: Total rows added: 897 in 0.12 seconds
+0000.614 (0) Table tmg1h9h024posts: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024posts.table.gz - 376.3 KB)
+0000.622 (0) Table tmg1h9h024signups: Total expected rows (approximate): 4
+0000.626 (0) Table tmg1h9h024signups: Total rows added: 4 in 0.00 seconds
+0000.627 (0) Table tmg1h9h024signups: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024signups.table.gz - 1.3 KB)
+0000.634 (0) Table tmg1h9h024term_relationships: Total expected rows (approximate): 133
+0000.640 (0) Table tmg1h9h024term_relationships: Total rows added: 133 in 0.00 seconds
+0000.642 (0) Table tmg1h9h024term_relationships: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024term_relationships.table.gz - 0.8 KB)
+0000.647 (0) Table tmg1h9h024term_taxonomy: Total expected rows (approximate): 84
+0000.653 (0) Table tmg1h9h024term_taxonomy: Total rows added: 84 in 0.00 seconds
+0000.655 (0) Table tmg1h9h024term_taxonomy: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024term_taxonomy.table.gz - 1.3 KB)
+0000.661 (0) Table tmg1h9h024termmeta: Total expected rows (approximate): 25
+0000.664 (0) Table tmg1h9h024termmeta: Total rows added: 25 in 0.00 seconds
+0000.665 (0) Table tmg1h9h024termmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024termmeta.table.gz - 1.2 KB)
+0000.670 (0) Table tmg1h9h024terms: Total expected rows (approximate): 84
+0000.673 (0) Table tmg1h9h024terms: Total rows added: 84 in 0.00 seconds
+0000.675 (0) Table tmg1h9h024terms: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024terms.table.gz - 1.4 KB)
+0000.682 (0) Table tmg1h9h024wc_category_lookup: Total expected rows (approximate): 4
+0000.685 (0) Table tmg1h9h024wc_category_lookup: Total rows added: 4 in 0.00 seconds
+0000.686 (0) Table tmg1h9h024wc_category_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_category_lookup.table.gz - 0.3 KB)
+0000.691 (0) Table tmg1h9h024wc_product_meta_lookup: Total expected rows (approximate): 21
+0000.694 (0) Table tmg1h9h024wc_product_meta_lookup: Total rows added: 21 in 0.00 seconds
+0000.695 (0) Table tmg1h9h024wc_product_meta_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_product_meta_lookup.table.gz - 0.7 KB)
+0000.703 (0) Table tmg1h9h024wc_tax_rate_classes: Total expected rows (approximate): 4
+0000.705 (0) Table tmg1h9h024wc_tax_rate_classes: Total rows added: 4 in 0.00 seconds
+0000.707 (0) Table tmg1h9h024wc_tax_rate_classes: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_tax_rate_classes.table.gz - 0.4 KB)
+0000.712 (0) Table tmg1h9h024woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0000.715 (0) Table tmg1h9h024woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0000.716 (0) Table tmg1h9h024woocommerce_order_itemmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0000.721 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0000.726 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0000.728 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0000.733 (0) Table tmg1h9h024aff_affiliates: Total expected rows (approximate): 1
+0000.735 (0) Table tmg1h9h024aff_affiliates: Total rows added: 1 in 0.00 seconds
+0000.737 (0) Table tmg1h9h024aff_affiliates: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_affiliates.table.gz - 0.5 KB)
+0000.745 (0) Table tmg1h9h024aff_affiliates_users: Total expected rows (approximate): 0
+0000.748 (0) Table tmg1h9h024aff_affiliates_users: Total rows added: 0 in 0.00 seconds
+0000.749 (0) Table tmg1h9h024aff_affiliates_users: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_affiliates_users.table.gz - 0.3 KB)
+0000.760 (0) Table tmg1h9h024aff_hits: Total expected rows (approximate): 0
+0000.766 (0) Table tmg1h9h024aff_hits: Total rows added: 0 in 0.00 seconds
+0000.769 (0) Table tmg1h9h024aff_hits: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_hits.table.gz - 0.5 KB)
+0000.776 (0) Table tmg1h9h024aff_referral_items: Total expected rows (approximate): 0
+0000.780 (0) Table tmg1h9h024aff_referral_items: Total rows added: 0 in 0.00 seconds
+0000.781 (0) Table tmg1h9h024aff_referral_items: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_referral_items.table.gz - 0.4 KB)
+0000.788 (0) Table tmg1h9h024aff_referrals: Total expected rows (approximate): 0
+0000.792 (0) Table tmg1h9h024aff_referrals: Total rows added: 0 in 0.00 seconds
+0000.795 (0) Table tmg1h9h024aff_referrals: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_referrals.table.gz - 0.6 KB)
+0000.800 (0) Table tmg1h9h024aff_robots: Total expected rows (approximate): 0
+0000.803 (0) Table tmg1h9h024aff_robots: Total rows added: 0 in 0.00 seconds
+0000.804 (0) Table tmg1h9h024aff_robots: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_robots.table.gz - 0.3 KB)
+0000.812 (0) Table tmg1h9h024aff_uris: Total expected rows (approximate): 0
+0000.816 (0) Table tmg1h9h024aff_uris: Total rows added: 0 in 0.00 seconds
+0000.818 (0) Table tmg1h9h024aff_uris: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_uris.table.gz - 0.3 KB)
+0000.825 (0) Table tmg1h9h024aff_user_agents: Total expected rows (approximate): 0
+0000.828 (0) Table tmg1h9h024aff_user_agents: Total rows added: 0 in 0.00 seconds
+0000.829 (0) Table tmg1h9h024aff_user_agents: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_user_agents.table.gz - 0.3 KB)
+0000.836 (0) Table tmg1h9h024arete_buddypress_smileys_manage: Total expected rows (approximate): 3
+0000.838 (0) Table tmg1h9h024arete_buddypress_smileys_manage: Total rows added: 3 in 0.00 seconds
+0000.839 (0) Table tmg1h9h024arete_buddypress_smileys_manage: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024arete_buddypress_smileys_manage.table.gz - 0.4 KB)
+0000.844 (0) Table tmg1h9h024bp_activity: Total expected rows (approximate): 88
+0000.849 (0) Table tmg1h9h024bp_activity: Total rows added: 91 in 0.00 seconds
+0000.851 (0) Table tmg1h9h024bp_activity: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_activity.table.gz - 5.5 KB)
+0000.855 (0) Table tmg1h9h024bp_activity_meta: Total expected rows (approximate): 24
+0000.858 (0) Table tmg1h9h024bp_activity_meta: Total rows added: 24 in 0.00 seconds
+0000.859 (0) Table tmg1h9h024bp_activity_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_activity_meta.table.gz - 1.5 KB)
+0000.864 (0) Table tmg1h9h024bp_friends: Total expected rows (approximate): 15
+0000.867 (0) Table tmg1h9h024bp_friends: Total rows added: 15 in 0.00 seconds
+0000.869 (0) Table tmg1h9h024bp_friends: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_friends.table.gz - 0.6 KB)
+0000.874 (0) Table tmg1h9h024bp_groups: Total expected rows (approximate): 4
+0000.877 (0) Table tmg1h9h024bp_groups: Total rows added: 4 in 0.00 seconds
+0000.879 (0) Table tmg1h9h024bp_groups: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups.table.gz - 0.8 KB)
+0000.885 (0) Table tmg1h9h024bp_groups_groupmeta: Total expected rows (approximate): 28
+0000.887 (0) Table tmg1h9h024bp_groups_groupmeta: Total rows added: 28 in 0.00 seconds
+0000.889 (0) Table tmg1h9h024bp_groups_groupmeta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups_groupmeta.table.gz - 0.7 KB)
+0000.894 (0) Table tmg1h9h024bp_groups_members: Total expected rows (approximate): 12
+0000.898 (0) Table tmg1h9h024bp_groups_members: Total rows added: 12 in 0.00 seconds
+0000.899 (0) Table tmg1h9h024bp_groups_members: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups_members.table.gz - 0.7 KB)
+0000.905 (0) Table tmg1h9h024bp_invitations: Total expected rows (approximate): 0
+0000.908 (0) Table tmg1h9h024bp_invitations: Total rows added: 0 in 0.00 seconds
+0000.909 (0) Table tmg1h9h024bp_invitations: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_invitations.table.gz - 0.5 KB)
+0000.914 (0) Table tmg1h9h024bp_messages_messages: Total expected rows (approximate): 9
+0000.919 (0) Table tmg1h9h024bp_messages_messages: Total rows added: 9 in 0.00 seconds
+0000.920 (0) Table tmg1h9h024bp_messages_messages: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_messages.table.gz - 1 KB)
+0000.933 (0) Table tmg1h9h024bp_messages_meta: Total expected rows (approximate): 0
+0000.936 (0) Table tmg1h9h024bp_messages_meta: Total rows added: 0 in 0.00 seconds
+0000.937 (0) Table tmg1h9h024bp_messages_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_meta.table.gz - 0.4 KB)
+0000.943 (0) Table tmg1h9h024bp_messages_notices: Total expected rows (approximate): 0
+0000.947 (0) Table tmg1h9h024bp_messages_notices: Total rows added: 0 in 0.00 seconds
+0000.948 (0) Table tmg1h9h024bp_messages_notices: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_notices.table.gz - 0.4 KB)
+0000.954 (0) Table tmg1h9h024bp_messages_recipients: Total expected rows (approximate): 12
+0000.957 (0) Table tmg1h9h024bp_messages_recipients: Total rows added: 12 in 0.00 seconds
+0000.959 (0) Table tmg1h9h024bp_messages_recipients: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_recipients.table.gz - 0.5 KB)
+0000.965 (0) Table tmg1h9h024bp_notifications: Total expected rows (approximate): 44
+0000.970 (0) Table tmg1h9h024bp_notifications: Total rows added: 44 in 0.00 seconds
+0000.972 (0) Table tmg1h9h024bp_notifications: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_notifications.table.gz - 1.2 KB)
+0000.978 (0) Table tmg1h9h024bp_notifications_meta: Total expected rows (approximate): 0
+0000.981 (0) Table tmg1h9h024bp_notifications_meta: Total rows added: 0 in 0.00 seconds
+0000.983 (0) Table tmg1h9h024bp_notifications_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_notifications_meta.table.gz - 0.4 KB)
+0000.988 (0) Table tmg1h9h024bp_xprofile_data: Total expected rows (approximate): 90
+0000.992 (0) Table tmg1h9h024bp_xprofile_data: Total rows added: 90 in 0.00 seconds
+0000.994 (0) Table tmg1h9h024bp_xprofile_data: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_data.table.gz - 3.7 KB)
+0000.999 (0) Table tmg1h9h024bp_xprofile_fields: Total expected rows (approximate): 23
+0001.002 (0) Table tmg1h9h024bp_xprofile_fields: Total rows added: 23 in 0.00 seconds
+0001.003 (0) Table tmg1h9h024bp_xprofile_fields: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_fields.table.gz - 1.1 KB)
+0001.008 (0) Table tmg1h9h024bp_xprofile_groups: Total expected rows (approximate): 4
+0001.011 (0) Table tmg1h9h024bp_xprofile_groups: Total rows added: 4 in 0.00 seconds
+0001.013 (0) Table tmg1h9h024bp_xprofile_groups: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_groups.table.gz - 0.5 KB)
+0001.018 (0) Table tmg1h9h024bp_xprofile_meta: Total expected rows (approximate): 126
+0001.022 (0) Table tmg1h9h024bp_xprofile_meta: Total rows added: 126 in 0.00 seconds
+0001.024 (0) Table tmg1h9h024bp_xprofile_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_meta.table.gz - 1.3 KB)
+0001.029 (0) Table tmg1h9h024brizy_logs: Total expected rows (approximate): 0
+0001.032 (0) Table tmg1h9h024brizy_logs: Total rows added: 0 in 0.00 seconds
+0001.033 (0) Table tmg1h9h024brizy_logs: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024brizy_logs.table.gz - 0.3 KB)
+0001.039 (0) Table tmg1h9h024logy_users: Total expected rows (approximate): 0
+0001.042 (0) Table tmg1h9h024logy_users: Total rows added: 0 in 0.00 seconds
+0001.044 (0) Table tmg1h9h024logy_users: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024logy_users.table.gz - 0.5 KB)
+0001.049 (0) Table tmg1h9h024mo_openid_linked_user: Total expected rows (approximate): 3
+0001.052 (0) Table tmg1h9h024mo_openid_linked_user: Total rows added: 3 in 0.00 seconds
+0001.053 (0) Table tmg1h9h024mo_openid_linked_user: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024mo_openid_linked_user.table.gz - 0.6 KB)
+0001.058 (0) Table tmg1h9h024mycred_log: Total expected rows (approximate): 106
+0001.062 (0) Table tmg1h9h024mycred_log: Total rows added: 106 in 0.00 seconds
+0001.064 (0) Table tmg1h9h024mycred_log: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024mycred_log.table.gz - 1.9 KB)
+0001.069 (0) Table tmg1h9h024rt_rtm_activity: Total expected rows (approximate): 80
+0001.073 (0) Table tmg1h9h024rt_rtm_activity: Total rows added: 80 in 0.00 seconds
+0001.074 (0) Table tmg1h9h024rt_rtm_activity: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_activity.table.gz - 0.6 KB)
+0001.079 (0) Table tmg1h9h024rt_rtm_api: Total expected rows (approximate): 0
+0001.082 (0) Table tmg1h9h024rt_rtm_api: Total rows added: 0 in 0.00 seconds
+0001.084 (0) Table tmg1h9h024rt_rtm_api: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_api.table.gz - 0.3 KB)
+0001.089 (0) Table tmg1h9h024rt_rtm_media: Total expected rows (approximate): 15
+0001.092 (0) Table tmg1h9h024rt_rtm_media: Total rows added: 15 in 0.00 seconds
+0001.094 (0) Table tmg1h9h024rt_rtm_media: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media.table.gz - 1.1 KB)
+0001.098 (0) Table tmg1h9h024rt_rtm_media_interaction: Total expected rows (approximate): 35
+0001.101 (0) Table tmg1h9h024rt_rtm_media_interaction: Total rows added: 35 in 0.00 seconds
+0001.103 (0) Table tmg1h9h024rt_rtm_media_interaction: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media_interaction.table.gz - 0.9 KB)
+0001.108 (0) Table tmg1h9h024rt_rtm_media_meta: Total expected rows (approximate): 12
+0001.111 (0) Table tmg1h9h024rt_rtm_media_meta: Total rows added: 12 in 0.00 seconds
+0001.112 (0) Table tmg1h9h024rt_rtm_media_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media_meta.table.gz - 0.5 KB)
+0001.119 (0) Table tmg1h9h024social_users: Total expected rows (approximate): 0
+0001.122 (0) Table tmg1h9h024social_users: Total rows added: 0 in 0.00 seconds
+0001.123 (0) Table tmg1h9h024social_users: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024social_users.table.gz - 0.4 KB)
+0001.128 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: Total expected rows (approximate): 250
+0001.133 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: Total rows added: 250 in 0.00 seconds
+0001.135 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_dictionary_fr_fr_en_gb.table.gz - 5.8 KB)
+0001.140 (0) Table tmg1h9h024trp_gettext_en_gb: Total expected rows (approximate): 460
+0001.146 (0) Table tmg1h9h024trp_gettext_en_gb: Total rows added: 460 in 0.00 seconds
+0001.147 (0) Table tmg1h9h024trp_gettext_en_gb: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_gettext_en_gb.table.gz - 6 KB)
+0001.153 (0) Table tmg1h9h024trp_gettext_fr_fr: Total expected rows (approximate): 5942
+0001.220 (0) Table tmg1h9h024trp_gettext_fr_fr: Total rows added: 5942 in 0.07 seconds
+0001.224 (0) Table tmg1h9h024trp_gettext_fr_fr: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_gettext_fr_fr.table.gz - 114.4 KB)
+0001.228 (0) Table tmg1h9h024trp_original_meta: Total expected rows (approximate): 66
+0001.231 (0) Table tmg1h9h024trp_original_meta: Total rows added: 66 in 0.00 seconds
+0001.232 (0) Table tmg1h9h024trp_original_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_original_meta.table.gz - 0.8 KB)
+0001.237 (0) Table tmg1h9h024trp_original_strings: Total expected rows (approximate): 250
+0001.240 (0) Table tmg1h9h024trp_original_strings: Total rows added: 250 in 0.00 seconds
+0001.242 (0) Table tmg1h9h024trp_original_strings: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_original_strings.table.gz - 4.9 KB)
+0001.247 (0) Table tmg1h9h024wc_admin_note_actions: Total expected rows (approximate): 12
+0001.251 (0) Table tmg1h9h024wc_admin_note_actions: Total rows added: 12 in 0.00 seconds
+0001.252 (0) Table tmg1h9h024wc_admin_note_actions: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_admin_note_actions.table.gz - 1 KB)
+0001.256 (0) Table tmg1h9h024wc_admin_notes: Total expected rows (approximate): 9
+0001.259 (0) Table tmg1h9h024wc_admin_notes: Total rows added: 9 in 0.00 seconds
+0001.260 (0) Table tmg1h9h024wc_admin_notes: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_admin_notes.table.gz - 1.8 KB)
+0001.265 (0) Table tmg1h9h024wc_customer_lookup: Total expected rows (approximate): 0
+0001.267 (0) Table tmg1h9h024wc_customer_lookup: Total rows added: 0 in 0.00 seconds
+0001.269 (0) Table tmg1h9h024wc_customer_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_customer_lookup.table.gz - 0.5 KB)
+0001.274 (0) Table tmg1h9h024wc_download_log: Total expected rows (approximate): 0
+0001.276 (0) Table tmg1h9h024wc_download_log: Total rows added: 0 in 0.00 seconds
+0001.278 (0) Table tmg1h9h024wc_download_log: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_download_log.table.gz - 0.5 KB)
+0001.283 (0) Table tmg1h9h024wc_order_coupon_lookup: Total expected rows (approximate): 0
+0001.285 (0) Table tmg1h9h024wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0001.287 (0) Table tmg1h9h024wc_order_coupon_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_coupon_lookup.table.gz - 0.4 KB)
+0001.291 (0) Table tmg1h9h024wc_order_product_lookup: Total expected rows (approximate): 0
+0001.294 (0) Table tmg1h9h024wc_order_product_lookup: Total rows added: 0 in 0.00 seconds
+0001.295 (0) Table tmg1h9h024wc_order_product_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_product_lookup.table.gz - 0.4 KB)
+0001.301 (0) Table tmg1h9h024wc_order_stats: Total expected rows (approximate): 0
+0001.303 (0) Table tmg1h9h024wc_order_stats: Total rows added: 0 in 0.00 seconds
+0001.305 (0) Table tmg1h9h024wc_order_stats: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_stats.table.gz - 0.5 KB)
+0001.310 (0) Table tmg1h9h024wc_order_tax_lookup: Total expected rows (approximate): 0
+0001.312 (0) Table tmg1h9h024wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0001.313 (0) Table tmg1h9h024wc_order_tax_lookup: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_tax_lookup.table.gz - 0.4 KB)
+0001.317 (0) Table tmg1h9h024wc_webhooks: Total expected rows (approximate): 0
+0001.320 (0) Table tmg1h9h024wc_webhooks: Total rows added: 0 in 0.00 seconds
+0001.321 (0) Table tmg1h9h024wc_webhooks: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_webhooks.table.gz - 0.5 KB)
+0001.325 (0) Table tmg1h9h024woocommerce_api_keys: Total expected rows (approximate): 0
+0001.328 (0) Table tmg1h9h024woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0001.329 (0) Table tmg1h9h024woocommerce_api_keys: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_api_keys.table.gz - 0.4 KB)
+0001.334 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0001.336 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0001.337 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0001.342 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0001.345 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0001.346 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0001.351 (0) Table tmg1h9h024woocommerce_log: Total expected rows (approximate): 0
+0001.354 (0) Table tmg1h9h024woocommerce_log: Total rows added: 0 in 0.00 seconds
+0001.355 (0) Table tmg1h9h024woocommerce_log: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_log.table.gz - 0.4 KB)
+0001.360 (0) Table tmg1h9h024woocommerce_order_items: Total expected rows (approximate): 0
+0001.362 (0) Table tmg1h9h024woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0001.364 (0) Table tmg1h9h024woocommerce_order_items: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_order_items.table.gz - 0.4 KB)
+0001.369 (0) Table tmg1h9h024woocommerce_payment_tokens: Total expected rows (approximate): 0
+0001.372 (0) Table tmg1h9h024woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0001.373 (0) Table tmg1h9h024woocommerce_payment_tokens: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_payment_tokens.table.gz - 0.4 KB)
+0001.378 (0) Table tmg1h9h024woocommerce_sessions: Total expected rows (approximate): 11
+0001.380 (0) Table tmg1h9h024woocommerce_sessions: Total rows added: 11 in 0.00 seconds
+0001.382 (0) Table tmg1h9h024woocommerce_sessions: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_sessions.table.gz - 1.6 KB)
+0001.386 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0001.389 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0001.391 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0001.396 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0001.399 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0001.400 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0001.406 (0) Table tmg1h9h024woocommerce_shipping_zones: Total expected rows (approximate): 0
+0001.408 (0) Table tmg1h9h024woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0001.412 (0) Table tmg1h9h024woocommerce_shipping_zones: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zones.table.gz - 0.3 KB)
+0001.418 (0) Table tmg1h9h024woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0001.420 (0) Table tmg1h9h024woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0001.421 (0) Table tmg1h9h024woocommerce_tax_rate_locations: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0001.426 (0) Table tmg1h9h024woocommerce_tax_rates: Total expected rows (approximate): 0
+0001.428 (0) Table tmg1h9h024woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0001.430 (0) Table tmg1h9h024woocommerce_tax_rates: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_tax_rates.table.gz - 0.4 KB)
+0001.436 (0) Table tmg1h9h024wpforms_tasks_meta: Total expected rows (approximate): 1
+0001.445 (0) Table tmg1h9h024wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0001.446 (0) Table tmg1h9h024wpforms_tasks_meta: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wpforms_tasks_meta.table.gz - 0.4 KB)
+0001.450 (0) Table tmg1h9h024wprss_logs: Total expected rows (approximate): 425
+0001.456 (0) Table tmg1h9h024wprss_logs: Total rows added: 425 in 0.00 seconds
+0001.458 (0) Table tmg1h9h024wprss_logs: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wprss_logs.table.gz - 4.7 KB)
+0001.464 (0) Table tmg1h9h024wsluserscontacts: Total expected rows (approximate): 0
+0001.466 (0) Table tmg1h9h024wsluserscontacts: Total rows added: 0 in 0.00 seconds
+0001.468 (0) Table tmg1h9h024wsluserscontacts: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wsluserscontacts.table.gz - 0.4 KB)
+0001.473 (0) Table tmg1h9h024wslusersprofiles: Total expected rows (approximate): 0
+0001.476 (0) Table tmg1h9h024wslusersprofiles: Total rows added: 0 in 0.00 seconds
+0001.478 (0) Table tmg1h9h024wslusersprofiles: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wslusersprofiles.table.gz - 0.5 KB)
+0001.484 (0) Table tmg1h9h024yz_bookmark: Total expected rows (approximate): 1
+0001.487 (0) Table tmg1h9h024yz_bookmark: Total rows added: 1 in 0.00 seconds
+0001.488 (0) Table tmg1h9h024yz_bookmark: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_bookmark.table.gz - 0.4 KB)
+0001.494 (0) Table tmg1h9h024yz_hashtags: Total expected rows (approximate): 3
+0001.497 (0) Table tmg1h9h024yz_hashtags: Total rows added: 3 in 0.00 seconds
+0001.499 (0) Table tmg1h9h024yz_hashtags: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_hashtags.table.gz - 0.4 KB)
+0001.505 (0) Table tmg1h9h024yz_hashtags_items: Total expected rows (approximate): 3
+0001.508 (0) Table tmg1h9h024yz_hashtags_items: Total rows added: 3 in 0.00 seconds
+0001.509 (0) Table tmg1h9h024yz_hashtags_items: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_hashtags_items.table.gz - 0.5 KB)
+0001.514 (0) Table tmg1h9h024yz_media: Total expected rows (approximate): 14
+0001.517 (0) Table tmg1h9h024yz_media: Total rows added: 14 in 0.00 seconds
+0001.519 (0) Table tmg1h9h024yz_media: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_media.table.gz - 1.3 KB)
+0001.524 (0) Table tmg1h9h024yz_reviews: Total expected rows (approximate): 19
+0001.527 (0) Table tmg1h9h024yz_reviews: Total rows added: 19 in 0.00 seconds
+0001.528 (0) Table tmg1h9h024yz_reviews: finishing file (backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_reviews.table.gz - 1.7 KB)
+0001.533 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024options.table.gz (1/93): adding to final database dump
+0001.606 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024users.table.gz (2/93): adding to final database dump
+0001.611 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024usermeta.table.gz (3/93): adding to final database dump
+0001.616 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_actions.table.gz (4/93): adding to final database dump
+0001.618 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_claims.table.gz (5/93): adding to final database dump
+0001.619 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_groups.table.gz (6/93): adding to final database dump
+0001.621 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024actionscheduler_logs.table.gz (7/93): adding to final database dump
+0001.622 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024commentmeta.table.gz (8/93): adding to final database dump
+0001.624 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024comments.table.gz (9/93): adding to final database dump
+0001.625 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024links.table.gz (10/93): adding to final database dump
+0001.626 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024postmeta.table.gz (11/93): adding to final database dump
+0001.676 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024posts.table.gz (12/93): adding to final database dump
+0001.761 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024signups.table.gz (13/93): adding to final database dump
+0001.763 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024term_relationships.table.gz (14/93): adding to final database dump
+0001.765 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024term_taxonomy.table.gz (15/93): adding to final database dump
+0001.766 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024termmeta.table.gz (16/93): adding to final database dump
+0001.767 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024terms.table.gz (17/93): adding to final database dump
+0001.769 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_category_lookup.table.gz (18/93): adding to final database dump
+0001.770 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_product_meta_lookup.table.gz (19/93): adding to final database dump
+0001.771 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_tax_rate_classes.table.gz (20/93): adding to final database dump
+0001.772 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_order_itemmeta.table.gz (21/93): adding to final database dump
+0001.773 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_payment_tokenmeta.table.gz (22/93): adding to final database dump
+0001.774 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_affiliates.table.gz (23/93): adding to final database dump
+0001.775 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_affiliates_users.table.gz (24/93): adding to final database dump
+0001.776 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_hits.table.gz (25/93): adding to final database dump
+0001.777 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_referral_items.table.gz (26/93): adding to final database dump
+0001.778 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_referrals.table.gz (27/93): adding to final database dump
+0001.779 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_robots.table.gz (28/93): adding to final database dump
+0001.780 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_uris.table.gz (29/93): adding to final database dump
+0001.781 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024aff_user_agents.table.gz (30/93): adding to final database dump
+0001.782 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024arete_buddypress_smileys_manage.table.gz (31/93): adding to final database dump
+0001.783 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_activity.table.gz (32/93): adding to final database dump
+0001.785 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_activity_meta.table.gz (33/93): adding to final database dump
+0001.786 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_friends.table.gz (34/93): adding to final database dump
+0001.794 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups.table.gz (35/93): adding to final database dump
+0001.796 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups_groupmeta.table.gz (36/93): adding to final database dump
+0001.797 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_groups_members.table.gz (37/93): adding to final database dump
+0001.799 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_invitations.table.gz (38/93): adding to final database dump
+0001.804 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_messages.table.gz (39/93): adding to final database dump
+0001.806 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_meta.table.gz (40/93): adding to final database dump
+0001.807 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_notices.table.gz (41/93): adding to final database dump
+0001.810 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_messages_recipients.table.gz (42/93): adding to final database dump
+0001.812 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_notifications.table.gz (43/93): adding to final database dump
+0001.815 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_notifications_meta.table.gz (44/93): adding to final database dump
+0001.817 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_data.table.gz (45/93): adding to final database dump
+0001.821 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_fields.table.gz (46/93): adding to final database dump
+0001.823 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_groups.table.gz (47/93): adding to final database dump
+0001.825 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024bp_xprofile_meta.table.gz (48/93): adding to final database dump
+0001.827 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024brizy_logs.table.gz (49/93): adding to final database dump
+0001.828 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024logy_users.table.gz (50/93): adding to final database dump
+0001.830 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024mo_openid_linked_user.table.gz (51/93): adding to final database dump
+0001.832 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024mycred_log.table.gz (52/93): adding to final database dump
+0001.833 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_activity.table.gz (53/93): adding to final database dump
+0001.835 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_api.table.gz (54/93): adding to final database dump
+0001.836 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media.table.gz (55/93): adding to final database dump
+0001.838 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media_interaction.table.gz (56/93): adding to final database dump
+0001.840 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024rt_rtm_media_meta.table.gz (57/93): adding to final database dump
+0001.843 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024social_users.table.gz (58/93): adding to final database dump
+0001.844 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_dictionary_fr_fr_en_gb.table.gz (59/93): adding to final database dump
+0001.846 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_gettext_en_gb.table.gz (60/93): adding to final database dump
+0001.848 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_gettext_fr_fr.table.gz (61/93): adding to final database dump
+0001.874 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_original_meta.table.gz (62/93): adding to final database dump
+0001.875 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024trp_original_strings.table.gz (63/93): adding to final database dump
+0001.878 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_admin_note_actions.table.gz (64/93): adding to final database dump
+0001.879 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_admin_notes.table.gz (65/93): adding to final database dump
+0001.881 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_customer_lookup.table.gz (66/93): adding to final database dump
+0001.882 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_download_log.table.gz (67/93): adding to final database dump
+0001.884 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_coupon_lookup.table.gz (68/93): adding to final database dump
+0001.885 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_product_lookup.table.gz (69/93): adding to final database dump
+0001.886 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_stats.table.gz (70/93): adding to final database dump
+0001.887 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_order_tax_lookup.table.gz (71/93): adding to final database dump
+0001.889 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wc_webhooks.table.gz (72/93): adding to final database dump
+0001.890 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_api_keys.table.gz (73/93): adding to final database dump
+0001.891 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_attribute_taxonomies.table.gz (74/93): adding to final database dump
+0001.891 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_downloadable_product_permissions.table.gz (75/93): adding to final database dump
+0001.892 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_log.table.gz (76/93): adding to final database dump
+0001.894 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_order_items.table.gz (77/93): adding to final database dump
+0001.895 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_payment_tokens.table.gz (78/93): adding to final database dump
+0001.896 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_sessions.table.gz (79/93): adding to final database dump
+0001.898 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zone_locations.table.gz (80/93): adding to final database dump
+0001.899 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zone_methods.table.gz (81/93): adding to final database dump
+0001.900 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_shipping_zones.table.gz (82/93): adding to final database dump
+0001.901 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_tax_rate_locations.table.gz (83/93): adding to final database dump
+0001.904 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024woocommerce_tax_rates.table.gz (84/93): adding to final database dump
+0001.905 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wpforms_tasks_meta.table.gz (85/93): adding to final database dump
+0001.906 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wprss_logs.table.gz (86/93): adding to final database dump
+0001.909 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wsluserscontacts.table.gz (87/93): adding to final database dump
+0001.911 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024wslusersprofiles.table.gz (88/93): adding to final database dump
+0001.912 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_bookmark.table.gz (89/93): adding to final database dump
+0001.913 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_hashtags.table.gz (90/93): adding to final database dump
+0001.914 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_hashtags_items.table.gz (91/93): adding to final database dump
+0001.915 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_media.table.gz (92/93): adding to final database dump
+0001.916 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db-table-tmg1h9h024yz_reviews.table.gz (93/93): adding to final database dump
+0001.919 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz: finished writing out complete database file (1040 KB)
+0001.938 (0) Total database tables backed up: 93 (backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz, size: 1075178, sha1: c6ec421ab8e9943851341facb83d3be960236fcf, sha256: dd1e17e4a8ee31c7ff9570e6fb6f8c0aa632a29413c978a20436965d1280804f)
+0001.981 (0) backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.982 (0) Saving backup history. Total backup size: 1 MB
+0002.003 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.007 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.008 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-44a8a6bbf8c86e20ff9f8d150cde4981)
+0002.867 (0) Google Drive: quota usage: used=7238.4 MB, total=15360 MB, available=8121.6 MB
+0002.868 (0) Google Drive: backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0003.289 (0) Googledrive chunked upload: 97.5 % uploaded (1048576)
+0004.518 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0004.552 (0) Google Drive: OK: Archive backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz uploaded in 1.68 seconds
+0004.567 (0) Recording as successfully uploaded: backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz
+0004.579 (0) Deleting local file: backup_2020-04-16-0519_Bojelo_0cba9a378009-db.gz: OK
+0004.621 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=20, retain_db=200
+0004.667 (0) Number of backup sets in history: 211; groups (db): 1
+0004.669 (0) Examining (for databases) backup set with group_id=0, nonce=0cba9a378009, datestamp=1587007195 (Apr 16 2020 03:19:55)
+0004.670 (0) This backup set is the backup set just made, so will not be deleted.
+0004.671 (0) Examining (for databases) backup set with group_id=0, nonce=4ec0b78874ac, datestamp=1587005370 (Apr 16 2020 02:49:30)
+0004.671 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=40bedcf31b67, datestamp=1586998380 (Apr 16 2020 00:53:00)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=4a83238c033c, datestamp=1586997047 (Apr 16 2020 00:30:47)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=2aad450825d7, datestamp=1586991870 (Apr 15 2020 23:04:30)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=d54aae2e0604, datestamp=1586988488 (Apr 15 2020 22:08:08)
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=1de02bc12f4d, datestamp=1586988477 (Apr 15 2020 22:07:57)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=ff85a2663934, datestamp=1586981378 (Apr 15 2020 20:09:38)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=b1d75d757e67, datestamp=1586976982 (Apr 15 2020 18:56:22)
+0004.672 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.673 (0) Examining (for databases) backup set with group_id=0, nonce=01f6df23f5cd, datestamp=1586976221 (Apr 15 2020 18:43:41)
+0004.673 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.673 (0) Examining (for databases) backup set with group_id=0, nonce=cdf6885dfebd, datestamp=1586973045 (Apr 15 2020 17:50:45)
+0004.673 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.673 (0) Examining (for databases) backup set with group_id=0, nonce=72256e6ebc68, datestamp=1586967481 (Apr 15 2020 16:18:01)
+0004.673 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.673 (0) Examining (for databases) backup set with group_id=0, nonce=9b9044fd5166, datestamp=1586963051 (Apr 15 2020 15:04:11)
+0004.673 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.673 (0) Examining (for databases) backup set with group_id=0, nonce=2010a01e4231, datestamp=1586958748 (Apr 15 2020 13:52:28)
+0004.673 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.676 (0) Examining (for databases) backup set with group_id=0, nonce=84416e206ab3, datestamp=1586955190 (Apr 15 2020 12:53:10)
+0004.676 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.681 (0) Examining (for databases) backup set with group_id=0, nonce=602e009303cf, datestamp=1586944349 (Apr 15 2020 09:52:29)
+0004.681 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.681 (0) Examining (for databases) backup set with group_id=0, nonce=c3df9db0f975, datestamp=1586940751 (Apr 15 2020 08:52:31)
+0004.681 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.681 (0) Examining (for databases) backup set with group_id=0, nonce=83dd06bff434, datestamp=1586938424 (Apr 15 2020 08:13:44)
+0004.681 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.681 (0) Examining (for databases) backup set with group_id=0, nonce=883cec62fb71, datestamp=1586934412 (Apr 15 2020 07:06:52)
+0004.681 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.681 (0) Examining (for databases) backup set with group_id=0, nonce=b72088db3c54, datestamp=1586930518 (Apr 15 2020 06:01:58)
+0004.681 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.684 (0) Examining (for databases) backup set with group_id=0, nonce=4c148f9da074, datestamp=1586928496 (Apr 15 2020 05:28:16)
+0004.684 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=d4b6f02fc75b, datestamp=1586919242 (Apr 15 2020 02:54:02)
+0004.686 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=21e3bbe5407b, datestamp=1586917424 (Apr 15 2020 02:23:44)
+0004.686 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=5b61558f3ab3, datestamp=1586915534 (Apr 15 2020 01:52:14)
+0004.686 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=53abf3e37a64, datestamp=1586910232 (Apr 15 2020 00:23:52)
+0004.686 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=77f0df8d0b7c, datestamp=1586906875 (Apr 14 2020 23:27:55)
+0004.686 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.686 (0) Examining (for databases) backup set with group_id=0, nonce=d7d9d8cfc408, datestamp=1586901639 (Apr 14 2020 22:00:39)
+0004.686 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.689 (0) Examining (for databases) backup set with group_id=0, nonce=7294e2bad1b2, datestamp=1586898619 (Apr 14 2020 21:10:19)
+0004.689 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.692 (0) Examining (for databases) backup set with group_id=0, nonce=9fee4cc6c5fe, datestamp=1586894066 (Apr 14 2020 19:54:26)
+0004.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.692 (0) Examining (for databases) backup set with group_id=0, nonce=f28a031d67b0, datestamp=1586891241 (Apr 14 2020 19:07:21)
+0004.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.692 (0) Examining (for databases) backup set with group_id=0, nonce=d45caa8525b6, datestamp=1586886752 (Apr 14 2020 17:52:32)
+0004.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.692 (0) Examining (for databases) backup set with group_id=0, nonce=b51e6c646eab, datestamp=1586884621 (Apr 14 2020 17:17:01)
+0004.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.692 (0) Examining (for databases) backup set with group_id=0, nonce=4000a2d76304, datestamp=1586880737 (Apr 14 2020 16:12:17)
+0004.692 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.693 (0) Examining (for databases) backup set with group_id=0, nonce=bed9eecdbd6c, datestamp=1586875983 (Apr 14 2020 14:53:03)
+0004.693 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.693 (0) Examining (for databases) backup set with group_id=0, nonce=4ac9031287a5, datestamp=1586872414 (Apr 14 2020 13:53:34)
+0004.693 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.693 (0) Examining (for databases) backup set with group_id=0, nonce=55160dde36ae, datestamp=1586872311 (Apr 14 2020 13:51:51)
+0004.693 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.702 (0) Examining (for databases) backup set with group_id=0, nonce=443169d8e1af, datestamp=1586868789 (Apr 14 2020 12:53:09)
+0004.702 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.707 (0) Examining (for databases) backup set with group_id=0, nonce=0e6a484efcad, datestamp=1586865189 (Apr 14 2020 11:53:09)
+0004.707 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.707 (0) Examining (for databases) backup set with group_id=0, nonce=c92bf3fe708e, datestamp=1586862189 (Apr 14 2020 11:03:09)
+0004.707 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.707 (0) Examining (for databases) backup set with group_id=0, nonce=fcd86f694328, datestamp=1586857951 (Apr 14 2020 09:52:31)
+0004.707 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.707 (0) Examining (for databases) backup set with group_id=0, nonce=7e879864e3b4, datestamp=1586854354 (Apr 14 2020 08:52:34)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=51db4addff07, datestamp=1586851472 (Apr 14 2020 08:04:32)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=1887be3648a5, datestamp=1586848345 (Apr 14 2020 07:12:25)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=31aacf385def, datestamp=1586848258 (Apr 14 2020 07:10:58)
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=f0cff8775e2b, datestamp=1586840759 (Apr 14 2020 05:05:59)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=c026e9b94bcc, datestamp=1586837433 (Apr 14 2020 04:10:33)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=990065b69100, datestamp=1586828530 (Apr 14 2020 01:42:10)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=03ffeec87c8e, datestamp=1586822821 (Apr 14 2020 00:07:01)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=e2e83f4a452d, datestamp=1586819807 (Apr 13 2020 23:16:47)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=d0dacaf02d80, datestamp=1586815475 (Apr 13 2020 22:04:35)
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=3ca8163bb7e0, datestamp=1586815466 (Apr 13 2020 22:04:26)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=b2eb2ece0bf9, datestamp=1586809533 (Apr 13 2020 20:25:33)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=7d95b47e4823, datestamp=1586806858 (Apr 13 2020 19:40:58)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=8275230af130, datestamp=1586802482 (Apr 13 2020 18:28:02)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.708 (0) Examining (for databases) backup set with group_id=0, nonce=1a1ba4221fe7, datestamp=1586799293 (Apr 13 2020 17:34:53)
+0004.708 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.709 (0) Examining (for databases) backup set with group_id=0, nonce=aa8b39037e1d, datestamp=1586793967 (Apr 13 2020 16:06:07)
+0004.709 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.709 (0) Examining (for databases) backup set with group_id=0, nonce=befe0ea802c8, datestamp=1586790393 (Apr 13 2020 15:06:33)
+0004.709 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.709 (0) Examining (for databases) backup set with group_id=0, nonce=99a4b61d6c7c, datestamp=1586786273 (Apr 13 2020 13:57:53)
+0004.709 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.711 (0) Examining (for databases) backup set with group_id=0, nonce=ca02f803a08d, datestamp=1586785163 (Apr 13 2020 13:39:23)
+0004.711 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=c2b87451a256, datestamp=1586778821 (Apr 13 2020 11:53:41)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=156f18e2a4b7, datestamp=1586775839 (Apr 13 2020 11:03:59)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=d86dc8b192ed, datestamp=1586771623 (Apr 13 2020 09:53:43)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=1d2fee605545, datestamp=1586768005 (Apr 13 2020 08:53:25)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=026b52f4b031, datestamp=1586764358 (Apr 13 2020 07:52:38)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=965797fd6d58, datestamp=1586760768 (Apr 13 2020 06:52:48)
+0004.716 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.716 (0) Examining (for databases) backup set with group_id=0, nonce=b19895b5a594, datestamp=1586757152 (Apr 13 2020 05:52:32)
+0004.716 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.723 (0) Examining (for databases) backup set with group_id=0, nonce=6a62b1d25d88, datestamp=1586753653 (Apr 13 2020 04:54:13)
+0004.723 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=c6fe9ff05dbe, datestamp=1586750034 (Apr 13 2020 03:53:54)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=51cff744ec67, datestamp=1586746415 (Apr 13 2020 02:53:35)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=284f51cfb7c3, datestamp=1586742793 (Apr 13 2020 01:53:13)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=9388b2b470ff, datestamp=1586739170 (Apr 13 2020 00:52:50)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=fd734eec4763, datestamp=1586736099 (Apr 13 2020 00:01:39)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.725 (0) Examining (for databases) backup set with group_id=0, nonce=6884684fa3be, datestamp=1586732317 (Apr 12 2020 22:58:37)
+0004.725 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=8312609cde32, datestamp=1586732229 (Apr 12 2020 22:57:09)
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=eefbb6f8193d, datestamp=1586726927 (Apr 12 2020 21:28:47)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=7641b78d9118, datestamp=1586721710 (Apr 12 2020 20:01:50)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=012081cf0ada, datestamp=1586718255 (Apr 12 2020 19:04:15)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=120b0ebc5ea7, datestamp=1586714116 (Apr 12 2020 17:55:16)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=0c69fb2b569d, datestamp=1586711254 (Apr 12 2020 17:07:34)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=48c9ceb41f03, datestamp=1586708082 (Apr 12 2020 16:14:42)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=fe1236ac8446, datestamp=1586703880 (Apr 12 2020 15:04:40)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=19e8d7b4ce11, datestamp=1586701246 (Apr 12 2020 14:20:46)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=8ee8611a56e5, datestamp=1586701164 (Apr 12 2020 14:19:24)
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=0410a3f16f91, datestamp=1586696935 (Apr 12 2020 13:08:55)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=88756fcfef6a, datestamp=1586690062 (Apr 12 2020 11:14:22)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=fc56eb179e71, datestamp=1586687035 (Apr 12 2020 10:23:55)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=356be57e7de2, datestamp=1586682015 (Apr 12 2020 09:00:15)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=60480acdf3fa, datestamp=1586678436 (Apr 12 2020 08:00:36)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.726 (0) Examining (for databases) backup set with group_id=0, nonce=494e49188693, datestamp=1586677086 (Apr 12 2020 07:38:06)
+0004.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=cc4e11b03b0f, datestamp=1586677003 (Apr 12 2020 07:36:43)
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=f1322f24bf2a, datestamp=1586669935 (Apr 12 2020 05:38:55)
+0004.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=4afab81340b3, datestamp=1586661896 (Apr 12 2020 03:24:56)
+0004.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=16a71dc4f121, datestamp=1586652933 (Apr 12 2020 00:55:33)
+0004.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=06a78a6c0fc4, datestamp=1586649402 (Apr 11 2020 23:56:42)
+0004.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=b50224fb453f, datestamp=1586645612 (Apr 11 2020 22:53:32)
+0004.727 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.727 (0) Examining (for databases) backup set with group_id=0, nonce=f55c3dbebc74, datestamp=1586641959 (Apr 11 2020 21:52:39)
+0004.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.729 (0) Examining (for databases) backup set with group_id=0, nonce=33fb255865d8, datestamp=1586638451 (Apr 11 2020 20:54:11)
+0004.729 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=329c02a603cf, datestamp=1586636389 (Apr 11 2020 20:19:49)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=fa29b87b9fb6, datestamp=1586634153 (Apr 11 2020 19:42:33)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=29019e152bbf, datestamp=1586626041 (Apr 11 2020 17:27:21)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=168ded68fd50, datestamp=1586621897 (Apr 11 2020 16:18:17)
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=5e3cf2cd7701, datestamp=1586621889 (Apr 11 2020 16:18:09)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=eee3dd4f4411, datestamp=1586607393 (Apr 11 2020 12:16:33)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=d044b7ae527c, datestamp=1586603186 (Apr 11 2020 11:06:26)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=8536038594fd, datestamp=1586600668 (Apr 11 2020 10:24:28)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=bacfcc431e1f, datestamp=1586595478 (Apr 11 2020 08:57:58)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=6fd7d7a5b5fe, datestamp=1586592433 (Apr 11 2020 08:07:13)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=91173e5fc1ca, datestamp=1586591369 (Apr 11 2020 07:49:29)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.731 (0) Examining (for databases) backup set with group_id=0, nonce=58e7245e591c, datestamp=1586586268 (Apr 11 2020 06:24:28)
+0004.731 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=5123c3dda71c, datestamp=1586586180 (Apr 11 2020 06:23:00)
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=793a1b970c40, datestamp=1586582679 (Apr 11 2020 05:24:39)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=3d3c9f6be571, datestamp=1586578979 (Apr 11 2020 04:22:59)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=2f0d9fc42f68, datestamp=1586574936 (Apr 11 2020 03:15:36)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=a1b18cbf778d, datestamp=1586573086 (Apr 11 2020 02:44:46)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=379f911c478b, datestamp=1586563351 (Apr 11 2020 00:02:31)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=3b20b34b11dc, datestamp=1586559802 (Apr 10 2020 23:03:22)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=6c234182a9a8, datestamp=1586557459 (Apr 10 2020 22:24:19)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=0f812b26a248, datestamp=1586557372 (Apr 10 2020 22:22:52)
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=f9a1e17584e8, datestamp=1586551974 (Apr 10 2020 20:52:54)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=62e6170f6275, datestamp=1586550884 (Apr 10 2020 20:34:44)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=d55c3c8bd331, datestamp=1586545050 (Apr 10 2020 18:57:30)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=e6c67828e2f6, datestamp=1586542258 (Apr 10 2020 18:10:58)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=b427cd6e2e3b, datestamp=1586538830 (Apr 10 2020 17:13:50)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.732 (0) Examining (for databases) backup set with group_id=0, nonce=cdadb58c132a, datestamp=1586535390 (Apr 10 2020 16:16:30)
+0004.732 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.733 (0) Examining (for databases) backup set with group_id=0, nonce=43c68a900724, datestamp=1586530369 (Apr 10 2020 14:52:49)
+0004.733 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.733 (0) Examining (for databases) backup set with group_id=0, nonce=ebbecb903b33, datestamp=1586527110 (Apr 10 2020 13:58:30)
+0004.733 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.736 (0) Examining (for databases) backup set with group_id=0, nonce=d2eb5d92aeb9, datestamp=1586523164 (Apr 10 2020 12:52:44)
+0004.736 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.741 (0) Examining (for databases) backup set with group_id=0, nonce=61a0d99f54f0, datestamp=1586519761 (Apr 10 2020 11:56:01)
+0004.741 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.741 (0) Examining (for databases) backup set with group_id=0, nonce=2842757d5953, datestamp=1586516226 (Apr 10 2020 10:57:06)
+0004.742 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.742 (0) Examining (for databases) backup set with group_id=0, nonce=5391b02283b0, datestamp=1586512347 (Apr 10 2020 09:52:27)
+0004.742 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.742 (0) Examining (for databases) backup set with group_id=0, nonce=d8bd693056f7, datestamp=1586508754 (Apr 10 2020 08:52:34)
+0004.742 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.742 (0) Examining (for databases) backup set with group_id=0, nonce=00fe47b334ab, datestamp=1586505151 (Apr 10 2020 07:52:31)
+0004.742 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.742 (0) Examining (for databases) backup set with group_id=0, nonce=8d5fca17f5e0, datestamp=1586501907 (Apr 10 2020 06:58:27)
+0004.742 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.742 (0) Examining (for databases) backup set with group_id=0, nonce=b0213e1b4b82, datestamp=1586498085 (Apr 10 2020 05:54:45)
+0004.742 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.744 (0) Examining (for databases) backup set with group_id=0, nonce=72ff04fceef3, datestamp=1586495492 (Apr 10 2020 05:11:32)
+0004.744 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.745 (0) Examining (for databases) backup set with group_id=0, nonce=0e0893d7a439, datestamp=1586488380 (Apr 10 2020 03:13:00)
+0004.745 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.745 (0) Examining (for databases) backup set with group_id=0, nonce=9b801f716d5a, datestamp=1586483839 (Apr 10 2020 01:57:19)
+0004.745 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.745 (0) Examining (for databases) backup set with group_id=0, nonce=0a539d6c807a, datestamp=1586483099 (Apr 10 2020 01:44:59)
+0004.745 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=d3c67d8a021a, datestamp=1586475063 (Apr 09 2020 23:31:03)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=6e576eff03d4, datestamp=1586474975 (Apr 09 2020 23:29:35)
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=bc054a5fdb3b, datestamp=1586466070 (Apr 09 2020 21:01:10)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=bd2c3777df38, datestamp=1586463269 (Apr 09 2020 20:14:29)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=2107f6043505, datestamp=1586458455 (Apr 09 2020 18:54:15)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=93b0aeaf729d, datestamp=1586455535 (Apr 09 2020 18:05:35)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=0d6cdd990c37, datestamp=1586451167 (Apr 09 2020 16:52:47)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=c1298c5a13ff, datestamp=1586447571 (Apr 09 2020 15:52:51)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=f41e722a0f61, datestamp=1586443950 (Apr 09 2020 14:52:30)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=a7ed135e0387, datestamp=1586440381 (Apr 09 2020 13:53:01)
+0004.746 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.746 (0) Examining (for databases) backup set with group_id=0, nonce=0af24ec483d1, datestamp=1586440320 (Apr 09 2020 13:52:00)
+0004.746 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.748 (0) Examining (for databases) backup set with group_id=0, nonce=abed237c3f07, datestamp=1586436749 (Apr 09 2020 12:52:29)
+0004.748 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.753 (0) Examining (for databases) backup set with group_id=0, nonce=1c9a79e43265, datestamp=1586433601 (Apr 09 2020 12:00:01)
+0004.753 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.753 (0) Examining (for databases) backup set with group_id=0, nonce=529b7b0d2be1, datestamp=1586429826 (Apr 09 2020 10:57:06)
+0004.753 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.753 (0) Examining (for databases) backup set with group_id=0, nonce=50067531f094, datestamp=1586425952 (Apr 09 2020 09:52:32)
+0004.753 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.753 (0) Examining (for databases) backup set with group_id=0, nonce=8c3b37ac3d46, datestamp=1586423221 (Apr 09 2020 09:07:01)
+0004.753 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.753 (0) Examining (for databases) backup set with group_id=0, nonce=539045908df1, datestamp=1586420520 (Apr 09 2020 08:22:00)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=0ea4103fde79, datestamp=1586415269 (Apr 09 2020 06:54:29)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=a3a8bf6950a1, datestamp=1586411932 (Apr 09 2020 05:58:52)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=d327a911631d, datestamp=1586408416 (Apr 09 2020 05:00:16)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=ee0b26236fe6, datestamp=1586407240 (Apr 09 2020 04:40:40)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=61a1c3ab9014, datestamp=1586401664 (Apr 09 2020 03:07:44)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=74f8c9058066, datestamp=1586394036 (Apr 09 2020 01:00:36)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=f52cdd7bad56, datestamp=1586391939 (Apr 09 2020 00:25:39)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=cb83a7ac44d5, datestamp=1586386959 (Apr 08 2020 23:02:39)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=27f629b2a181, datestamp=1586383100 (Apr 08 2020 21:58:20)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=175becaf44c1, datestamp=1586379454 (Apr 08 2020 20:57:34)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=950118515a86, datestamp=1586375549 (Apr 08 2020 19:52:29)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=886ff4fd805d, datestamp=1586372896 (Apr 08 2020 19:08:16)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.754 (0) Examining (for databases) backup set with group_id=0, nonce=631b6c1302be, datestamp=1586364945 (Apr 08 2020 16:55:45)
+0004.754 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=23b20f5f206e, datestamp=1586361546 (Apr 08 2020 15:59:06)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=756562362249, datestamp=1586353955 (Apr 08 2020 13:52:35)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=2ff2a725fc94, datestamp=1586350374 (Apr 08 2020 12:52:54)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=dbdcf65ba7d0, datestamp=1586347030 (Apr 08 2020 11:57:10)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=dbe3bc5f9baa, datestamp=1586343389 (Apr 08 2020 10:56:29)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=56e54471751b, datestamp=1586339559 (Apr 08 2020 09:52:39)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=f1631a7596a5, datestamp=1586335994 (Apr 08 2020 08:53:14)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=8856774036ce, datestamp=1586335314 (Apr 08 2020 08:41:54)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=d6b8345d3a4d, datestamp=1586326837 (Apr 08 2020 06:20:37)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=a465658acb4c, datestamp=1586320163 (Apr 08 2020 04:29:23)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=f4a586cc802f, datestamp=1586309768 (Apr 08 2020 01:36:08)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=aef293dfb670, datestamp=1586303903 (Apr 07 2020 23:58:23)
+0004.755 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.755 (0) Examining (for databases) backup set with group_id=0, nonce=8e950be1659c, datestamp=1586299886 (Apr 07 2020 22:51:26)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=f724def0ae21, datestamp=1586292809 (Apr 07 2020 20:53:29)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=8ab05161d5e1, datestamp=1586289182 (Apr 07 2020 19:53:02)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=13fda17f7cbb, datestamp=1586285553 (Apr 07 2020 18:52:33)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=10a2fd1f231a, datestamp=1586282046 (Apr 07 2020 17:54:06)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=fa2d35bc41fd, datestamp=1586278354 (Apr 07 2020 16:52:34)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=20e5dd0caf8b, datestamp=1586274789 (Apr 07 2020 15:53:09)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=a5dd2c3a8c35, datestamp=1586271163 (Apr 07 2020 14:52:43)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=1e41d33566da, datestamp=1586267681 (Apr 07 2020 13:54:41)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=64cd4502160b, datestamp=1586267535 (Apr 07 2020 13:52:15)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=6afa4a0a7a57, datestamp=1586264026 (Apr 07 2020 12:53:46)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=381fc963f0aa, datestamp=1586260397 (Apr 07 2020 11:53:17)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=b25d98571bef, datestamp=1586258049 (Apr 07 2020 11:14:09)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=f51e8245aec5, datestamp=1586253185 (Apr 07 2020 09:53:05)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=9fffad666948, datestamp=1586249630 (Apr 07 2020 08:53:50)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.756 (0) Examining (for databases) backup set with group_id=0, nonce=bbc56c53efd3, datestamp=1586246142 (Apr 07 2020 07:55:42)
+0004.756 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=bf043bd7f911, datestamp=1586243916 (Apr 07 2020 07:18:36)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=70e9008042f9, datestamp=1586238762 (Apr 07 2020 05:52:42)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=8313748090fe, datestamp=1586231546 (Apr 07 2020 03:52:26)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=c9b7eaf9a56a, datestamp=1586227955 (Apr 07 2020 02:52:35)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=a9b63a6451de, datestamp=1586224355 (Apr 07 2020 01:52:35)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=2108cf371787, datestamp=1586220755 (Apr 07 2020 00:52:35)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=e0f4cb75b360, datestamp=1586217155 (Apr 06 2020 23:52:35)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=d562cc5e3005, datestamp=1586213555 (Apr 06 2020 22:52:35)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=3a1b4ebaaa17, datestamp=1586210186 (Apr 06 2020 21:56:26)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=a6167aaad1fe, datestamp=1586203056 (Apr 06 2020 19:57:36)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=3211845786dd, datestamp=1586199307 (Apr 06 2020 18:55:07)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=efb880785521, datestamp=1586195658 (Apr 06 2020 17:54:18)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=746cc65d9b24, datestamp=1586192045 (Apr 06 2020 16:54:05)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.757 (0) Examining (for databases) backup set with group_id=0, nonce=13bc78e323bb, datestamp=1586188422 (Apr 06 2020 15:53:42)
+0004.757 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.758 (0) Examining (for databases) backup set with group_id=0, nonce=a80ae0dc06f4, datestamp=1586184747 (Apr 06 2020 14:52:27)
+0004.758 (0) 1586184747: db: this set includes a database (backup_2020-04-06-1652_Bojelo_a80ae0dc06f4-db.gz); db count is now 200
+0004.758 (0) 1586184747: db: over retain limit (200); will delete this database
+0004.758 (0) Delete file: backup_2020-04-06-1652_Bojelo_a80ae0dc06f4-db.gz, service=googledrive
+0007.145 (0) Google Drive: backup_2020-04-06-1652_Bojelo_a80ae0dc06f4-db.gz: Deletion successful
+0007.149 (0) This backup set is now empty; will remove from history
+0007.150 (0) Deleting log file (log.a80ae0dc06f4.txt)
+0007.152 (0) Number of backup sets in history: 210; groups (files): 1
+0007.153 (0) Examining (for files) backup set with nonce=0cba9a378009, datestamp=1587007195 (Apr 16 2020 03:19:55)
+0007.153 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.159 (0) Examining (for files) backup set with nonce=4ec0b78874ac, datestamp=1587005370 (Apr 16 2020 02:49:30)
+0007.159 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.159 (0) Examining (for files) backup set with nonce=40bedcf31b67, datestamp=1586998380 (Apr 16 2020 00:53:00)
+0007.159 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.159 (0) Examining (for files) backup set with nonce=4a83238c033c, datestamp=1586997047 (Apr 16 2020 00:30:47)
+0007.159 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.159 (0) Examining (for files) backup set with nonce=2aad450825d7, datestamp=1586991870 (Apr 15 2020 23:04:30)
+0007.159 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.159 (0) Examining (for files) backup set with nonce=d54aae2e0604, datestamp=1586988488 (Apr 15 2020 22:08:08)
+0007.159 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.160 (0) Examining (for files) backup set with nonce=1de02bc12f4d, datestamp=1586988477 (Apr 15 2020 22:07:57)
+0007.160 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.161 (0) Examining (for files) backup set with nonce=ff85a2663934, datestamp=1586981378 (Apr 15 2020 20:09:38)
+0007.161 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.161 (0) Examining (for files) backup set with nonce=b1d75d757e67, datestamp=1586976982 (Apr 15 2020 18:56:22)
+0007.161 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.161 (0) Examining (for files) backup set with nonce=01f6df23f5cd, datestamp=1586976221 (Apr 15 2020 18:43:41)
+0007.161 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.162 (0) Examining (for files) backup set with nonce=cdf6885dfebd, datestamp=1586973045 (Apr 15 2020 17:50:45)
+0007.162 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.162 (0) Examining (for files) backup set with nonce=72256e6ebc68, datestamp=1586967481 (Apr 15 2020 16:18:01)
+0007.162 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.162 (0) Examining (for files) backup set with nonce=9b9044fd5166, datestamp=1586963051 (Apr 15 2020 15:04:11)
+0007.162 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.162 (0) Examining (for files) backup set with nonce=2010a01e4231, datestamp=1586958748 (Apr 15 2020 13:52:28)
+0007.162 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.163 (0) Examining (for files) backup set with nonce=84416e206ab3, datestamp=1586955190 (Apr 15 2020 12:53:10)
+0007.163 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.164 (0) Examining (for files) backup set with nonce=602e009303cf, datestamp=1586944349 (Apr 15 2020 09:52:29)
+0007.164 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.164 (0) Examining (for files) backup set with nonce=c3df9db0f975, datestamp=1586940751 (Apr 15 2020 08:52:31)
+0007.164 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.164 (0) Examining (for files) backup set with nonce=83dd06bff434, datestamp=1586938424 (Apr 15 2020 08:13:44)
+0007.164 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.164 (0) Examining (for files) backup set with nonce=883cec62fb71, datestamp=1586934412 (Apr 15 2020 07:06:52)
+0007.164 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.165 (0) Examining (for files) backup set with nonce=b72088db3c54, datestamp=1586930518 (Apr 15 2020 06:01:58)
+0007.165 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.166 (0) Examining (for files) backup set with nonce=4c148f9da074, datestamp=1586928496 (Apr 15 2020 05:28:16)
+0007.166 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.167 (0) Examining (for files) backup set with nonce=d4b6f02fc75b, datestamp=1586919242 (Apr 15 2020 02:54:02)
+0007.167 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.168 (0) Examining (for files) backup set with nonce=21e3bbe5407b, datestamp=1586917424 (Apr 15 2020 02:23:44)
+0007.168 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.168 (0) Examining (for files) backup set with nonce=5b61558f3ab3, datestamp=1586915534 (Apr 15 2020 01:52:14)
+0007.168 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.168 (0) Examining (for files) backup set with nonce=53abf3e37a64, datestamp=1586910232 (Apr 15 2020 00:23:52)
+0007.168 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.168 (0) Examining (for files) backup set with nonce=77f0df8d0b7c, datestamp=1586906875 (Apr 14 2020 23:27:55)
+0007.168 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.168 (0) Examining (for files) backup set with nonce=d7d9d8cfc408, datestamp=1586901639 (Apr 14 2020 22:00:39)
+0007.168 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.169 (0) Examining (for files) backup set with nonce=7294e2bad1b2, datestamp=1586898619 (Apr 14 2020 21:10:19)
+0007.169 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=9fee4cc6c5fe, datestamp=1586894066 (Apr 14 2020 19:54:26)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=f28a031d67b0, datestamp=1586891241 (Apr 14 2020 19:07:21)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=d45caa8525b6, datestamp=1586886752 (Apr 14 2020 17:52:32)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=b51e6c646eab, datestamp=1586884621 (Apr 14 2020 17:17:01)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=4000a2d76304, datestamp=1586880737 (Apr 14 2020 16:12:17)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=bed9eecdbd6c, datestamp=1586875983 (Apr 14 2020 14:53:03)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=4ac9031287a5, datestamp=1586872414 (Apr 14 2020 13:53:34)
+0007.171 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.171 (0) Examining (for files) backup set with nonce=55160dde36ae, datestamp=1586872311 (Apr 14 2020 13:51:51)
+0007.171 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.172 (0) Examining (for files) backup set with nonce=443169d8e1af, datestamp=1586868789 (Apr 14 2020 12:53:09)
+0007.172 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=0e6a484efcad, datestamp=1586865189 (Apr 14 2020 11:53:09)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=c92bf3fe708e, datestamp=1586862189 (Apr 14 2020 11:03:09)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=fcd86f694328, datestamp=1586857951 (Apr 14 2020 09:52:31)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=7e879864e3b4, datestamp=1586854354 (Apr 14 2020 08:52:34)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=51db4addff07, datestamp=1586851472 (Apr 14 2020 08:04:32)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=1887be3648a5, datestamp=1586848345 (Apr 14 2020 07:12:25)
+0007.174 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.174 (0) Examining (for files) backup set with nonce=31aacf385def, datestamp=1586848258 (Apr 14 2020 07:10:58)
+0007.174 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.175 (0) Examining (for files) backup set with nonce=f0cff8775e2b, datestamp=1586840759 (Apr 14 2020 05:05:59)
+0007.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.176 (0) Examining (for files) backup set with nonce=c026e9b94bcc, datestamp=1586837433 (Apr 14 2020 04:10:33)
+0007.176 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.176 (0) Examining (for files) backup set with nonce=990065b69100, datestamp=1586828530 (Apr 14 2020 01:42:10)
+0007.176 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.176 (0) Examining (for files) backup set with nonce=03ffeec87c8e, datestamp=1586822821 (Apr 14 2020 00:07:01)
+0007.176 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.177 (0) Examining (for files) backup set with nonce=e2e83f4a452d, datestamp=1586819807 (Apr 13 2020 23:16:47)
+0007.177 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.177 (0) Examining (for files) backup set with nonce=d0dacaf02d80, datestamp=1586815475 (Apr 13 2020 22:04:35)
+0007.177 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.178 (0) Examining (for files) backup set with nonce=3ca8163bb7e0, datestamp=1586815466 (Apr 13 2020 22:04:26)
+0007.178 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=b2eb2ece0bf9, datestamp=1586809533 (Apr 13 2020 20:25:33)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=7d95b47e4823, datestamp=1586806858 (Apr 13 2020 19:40:58)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=8275230af130, datestamp=1586802482 (Apr 13 2020 18:28:02)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=1a1ba4221fe7, datestamp=1586799293 (Apr 13 2020 17:34:53)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=aa8b39037e1d, datestamp=1586793967 (Apr 13 2020 16:06:07)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=befe0ea802c8, datestamp=1586790393 (Apr 13 2020 15:06:33)
+0007.179 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.179 (0) Examining (for files) backup set with nonce=99a4b61d6c7c, datestamp=1586786273 (Apr 13 2020 13:57:53)
+0007.179 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.180 (0) Examining (for files) backup set with nonce=ca02f803a08d, datestamp=1586785163 (Apr 13 2020 13:39:23)
+0007.180 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=c2b87451a256, datestamp=1586778821 (Apr 13 2020 11:53:41)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=156f18e2a4b7, datestamp=1586775839 (Apr 13 2020 11:03:59)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=d86dc8b192ed, datestamp=1586771623 (Apr 13 2020 09:53:43)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=1d2fee605545, datestamp=1586768005 (Apr 13 2020 08:53:25)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=026b52f4b031, datestamp=1586764358 (Apr 13 2020 07:52:38)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=965797fd6d58, datestamp=1586760768 (Apr 13 2020 06:52:48)
+0007.182 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.182 (0) Examining (for files) backup set with nonce=b19895b5a594, datestamp=1586757152 (Apr 13 2020 05:52:32)
+0007.182 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.183 (0) Examining (for files) backup set with nonce=6a62b1d25d88, datestamp=1586753653 (Apr 13 2020 04:54:13)
+0007.183 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=c6fe9ff05dbe, datestamp=1586750034 (Apr 13 2020 03:53:54)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=51cff744ec67, datestamp=1586746415 (Apr 13 2020 02:53:35)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=284f51cfb7c3, datestamp=1586742793 (Apr 13 2020 01:53:13)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=9388b2b470ff, datestamp=1586739170 (Apr 13 2020 00:52:50)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=fd734eec4763, datestamp=1586736099 (Apr 13 2020 00:01:39)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.184 (0) Examining (for files) backup set with nonce=6884684fa3be, datestamp=1586732317 (Apr 12 2020 22:58:37)
+0007.184 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.185 (0) Examining (for files) backup set with nonce=8312609cde32, datestamp=1586732229 (Apr 12 2020 22:57:09)
+0007.185 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.186 (0) Examining (for files) backup set with nonce=eefbb6f8193d, datestamp=1586726927 (Apr 12 2020 21:28:47)
+0007.186 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.188 (0) Examining (for files) backup set with nonce=7641b78d9118, datestamp=1586721710 (Apr 12 2020 20:01:50)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=012081cf0ada, datestamp=1586718255 (Apr 12 2020 19:04:15)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=120b0ebc5ea7, datestamp=1586714116 (Apr 12 2020 17:55:16)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=0c69fb2b569d, datestamp=1586711254 (Apr 12 2020 17:07:34)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=48c9ceb41f03, datestamp=1586708082 (Apr 12 2020 16:14:42)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=fe1236ac8446, datestamp=1586703880 (Apr 12 2020 15:04:40)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=19e8d7b4ce11, datestamp=1586701246 (Apr 12 2020 14:20:46)
+0007.189 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.189 (0) Examining (for files) backup set with nonce=8ee8611a56e5, datestamp=1586701164 (Apr 12 2020 14:19:24)
+0007.189 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.192 (0) Examining (for files) backup set with nonce=0410a3f16f91, datestamp=1586696935 (Apr 12 2020 13:08:55)
+0007.192 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=88756fcfef6a, datestamp=1586690062 (Apr 12 2020 11:14:22)
+0007.195 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=fc56eb179e71, datestamp=1586687035 (Apr 12 2020 10:23:55)
+0007.195 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=356be57e7de2, datestamp=1586682015 (Apr 12 2020 09:00:15)
+0007.195 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=60480acdf3fa, datestamp=1586678436 (Apr 12 2020 08:00:36)
+0007.195 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=494e49188693, datestamp=1586677086 (Apr 12 2020 07:38:06)
+0007.195 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.195 (0) Examining (for files) backup set with nonce=cc4e11b03b0f, datestamp=1586677003 (Apr 12 2020 07:36:43)
+0007.195 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.199 (0) Examining (for files) backup set with nonce=f1322f24bf2a, datestamp=1586669935 (Apr 12 2020 05:38:55)
+0007.199 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.203 (0) Examining (for files) backup set with nonce=4afab81340b3, datestamp=1586661896 (Apr 12 2020 03:24:56)
+0007.203 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.203 (0) Examining (for files) backup set with nonce=16a71dc4f121, datestamp=1586652933 (Apr 12 2020 00:55:33)
+0007.203 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.203 (0) Examining (for files) backup set with nonce=06a78a6c0fc4, datestamp=1586649402 (Apr 11 2020 23:56:42)
+0007.203 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.204 (0) Examining (for files) backup set with nonce=b50224fb453f, datestamp=1586645612 (Apr 11 2020 22:53:32)
+0007.204 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.204 (0) Examining (for files) backup set with nonce=f55c3dbebc74, datestamp=1586641959 (Apr 11 2020 21:52:39)
+0007.204 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.208 (0) Examining (for files) backup set with nonce=33fb255865d8, datestamp=1586638451 (Apr 11 2020 20:54:11)
+0007.208 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.210 (0) Examining (for files) backup set with nonce=329c02a603cf, datestamp=1586636389 (Apr 11 2020 20:19:49)
+0007.210 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.210 (0) Examining (for files) backup set with nonce=fa29b87b9fb6, datestamp=1586634153 (Apr 11 2020 19:42:33)
+0007.210 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.210 (0) Examining (for files) backup set with nonce=29019e152bbf, datestamp=1586626041 (Apr 11 2020 17:27:21)
+0007.210 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.210 (0) Examining (for files) backup set with nonce=168ded68fd50, datestamp=1586621897 (Apr 11 2020 16:18:17)
+0007.210 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.211 (0) Examining (for files) backup set with nonce=5e3cf2cd7701, datestamp=1586621889 (Apr 11 2020 16:18:09)
+0007.211 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.212 (0) Examining (for files) backup set with nonce=eee3dd4f4411, datestamp=1586607393 (Apr 11 2020 12:16:33)
+0007.212 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=d044b7ae527c, datestamp=1586603186 (Apr 11 2020 11:06:26)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=8536038594fd, datestamp=1586600668 (Apr 11 2020 10:24:28)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=bacfcc431e1f, datestamp=1586595478 (Apr 11 2020 08:57:58)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=6fd7d7a5b5fe, datestamp=1586592433 (Apr 11 2020 08:07:13)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=91173e5fc1ca, datestamp=1586591369 (Apr 11 2020 07:49:29)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=58e7245e591c, datestamp=1586586268 (Apr 11 2020 06:24:28)
+0007.213 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.213 (0) Examining (for files) backup set with nonce=5123c3dda71c, datestamp=1586586180 (Apr 11 2020 06:23:00)
+0007.213 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.214 (0) Examining (for files) backup set with nonce=793a1b970c40, datestamp=1586582679 (Apr 11 2020 05:24:39)
+0007.214 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.215 (0) Examining (for files) backup set with nonce=3d3c9f6be571, datestamp=1586578979 (Apr 11 2020 04:22:59)
+0007.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.215 (0) Examining (for files) backup set with nonce=2f0d9fc42f68, datestamp=1586574936 (Apr 11 2020 03:15:36)
+0007.215 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.216 (0) Examining (for files) backup set with nonce=a1b18cbf778d, datestamp=1586573086 (Apr 11 2020 02:44:46)
+0007.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.216 (0) Examining (for files) backup set with nonce=379f911c478b, datestamp=1586563351 (Apr 11 2020 00:02:31)
+0007.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.216 (0) Examining (for files) backup set with nonce=3b20b34b11dc, datestamp=1586559802 (Apr 10 2020 23:03:22)
+0007.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.216 (0) Examining (for files) backup set with nonce=6c234182a9a8, datestamp=1586557459 (Apr 10 2020 22:24:19)
+0007.216 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.216 (0) Examining (for files) backup set with nonce=0f812b26a248, datestamp=1586557372 (Apr 10 2020 22:22:52)
+0007.216 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.217 (0) Examining (for files) backup set with nonce=f9a1e17584e8, datestamp=1586551974 (Apr 10 2020 20:52:54)
+0007.217 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=62e6170f6275, datestamp=1586550884 (Apr 10 2020 20:34:44)
+0007.218 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=d55c3c8bd331, datestamp=1586545050 (Apr 10 2020 18:57:30)
+0007.218 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=e6c67828e2f6, datestamp=1586542258 (Apr 10 2020 18:10:58)
+0007.218 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=b427cd6e2e3b, datestamp=1586538830 (Apr 10 2020 17:13:50)
+0007.218 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=cdadb58c132a, datestamp=1586535390 (Apr 10 2020 16:16:30)
+0007.218 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.218 (0) Examining (for files) backup set with nonce=43c68a900724, datestamp=1586530369 (Apr 10 2020 14:52:49)
+0007.219 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.219 (0) Examining (for files) backup set with nonce=ebbecb903b33, datestamp=1586527110 (Apr 10 2020 13:58:30)
+0007.219 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.221 (0) Examining (for files) backup set with nonce=d2eb5d92aeb9, datestamp=1586523164 (Apr 10 2020 12:52:44)
+0007.221 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=61a0d99f54f0, datestamp=1586519761 (Apr 10 2020 11:56:01)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=2842757d5953, datestamp=1586516226 (Apr 10 2020 10:57:06)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=5391b02283b0, datestamp=1586512347 (Apr 10 2020 09:52:27)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=d8bd693056f7, datestamp=1586508754 (Apr 10 2020 08:52:34)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=00fe47b334ab, datestamp=1586505151 (Apr 10 2020 07:52:31)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=8d5fca17f5e0, datestamp=1586501907 (Apr 10 2020 06:58:27)
+0007.222 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.222 (0) Examining (for files) backup set with nonce=b0213e1b4b82, datestamp=1586498085 (Apr 10 2020 05:54:45)
+0007.222 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.223 (0) Examining (for files) backup set with nonce=72ff04fceef3, datestamp=1586495492 (Apr 10 2020 05:11:32)
+0007.223 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.224 (0) Examining (for files) backup set with nonce=0e0893d7a439, datestamp=1586488380 (Apr 10 2020 03:13:00)
+0007.224 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.224 (0) Examining (for files) backup set with nonce=9b801f716d5a, datestamp=1586483839 (Apr 10 2020 01:57:19)
+0007.224 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.225 (0) Examining (for files) backup set with nonce=0a539d6c807a, datestamp=1586483099 (Apr 10 2020 01:44:59)
+0007.225 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.225 (0) Examining (for files) backup set with nonce=d3c67d8a021a, datestamp=1586475063 (Apr 09 2020 23:31:03)
+0007.225 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.225 (0) Examining (for files) backup set with nonce=6e576eff03d4, datestamp=1586474975 (Apr 09 2020 23:29:35)
+0007.225 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.226 (0) Examining (for files) backup set with nonce=bc054a5fdb3b, datestamp=1586466070 (Apr 09 2020 21:01:10)
+0007.226 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=bd2c3777df38, datestamp=1586463269 (Apr 09 2020 20:14:29)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=2107f6043505, datestamp=1586458455 (Apr 09 2020 18:54:15)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=93b0aeaf729d, datestamp=1586455535 (Apr 09 2020 18:05:35)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=0d6cdd990c37, datestamp=1586451167 (Apr 09 2020 16:52:47)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=c1298c5a13ff, datestamp=1586447571 (Apr 09 2020 15:52:51)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=f41e722a0f61, datestamp=1586443950 (Apr 09 2020 14:52:30)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=a7ed135e0387, datestamp=1586440381 (Apr 09 2020 13:53:01)
+0007.227 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.227 (0) Examining (for files) backup set with nonce=0af24ec483d1, datestamp=1586440320 (Apr 09 2020 13:52:00)
+0007.227 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0007.229 (0) Examining (for files) backup set with nonce=abed237c3f07, datestamp=1586436749 (Apr 09 2020 12:52:29)
+0007.229 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=1c9a79e43265, datestamp=1586433601 (Apr 09 2020 12:00:01)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=529b7b0d2be1, datestamp=1586429826 (Apr 09 2020 10:57:06)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=50067531f094, datestamp=1586425952 (Apr 09 2020 09:52:32)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=8c3b37ac3d46, datestamp=1586423221 (Apr 09 2020 09:07:01)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=539045908df1, datestamp=1586420520 (Apr 09 2020 08:22:00)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=0ea4103fde79, datestamp=1586415269 (Apr 09 2020 06:54:29)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=a3a8bf6950a1, datestamp=1586411932 (Apr 09 2020 05:58:52)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.231 (0) Examining (for files) backup set with nonce=d327a911631d, datestamp=1586408416 (Apr 09 2020 05:00:16)
+0007.231 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=ee0b26236fe6, datestamp=1586407240 (Apr 09 2020 04:40:40)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=61a1c3ab9014, datestamp=1586401664 (Apr 09 2020 03:07:44)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=74f8c9058066, datestamp=1586394036 (Apr 09 2020 01:00:36)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=f52cdd7bad56, datestamp=1586391939 (Apr 09 2020 00:25:39)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=cb83a7ac44d5, datestamp=1586386959 (Apr 08 2020 23:02:39)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=27f629b2a181, datestamp=1586383100 (Apr 08 2020 21:58:20)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=175becaf44c1, datestamp=1586379454 (Apr 08 2020 20:57:34)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=950118515a86, datestamp=1586375549 (Apr 08 2020 19:52:29)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=886ff4fd805d, datestamp=1586372896 (Apr 08 2020 19:08:16)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=631b6c1302be, datestamp=1586364945 (Apr 08 2020 16:55:45)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=23b20f5f206e, datestamp=1586361546 (Apr 08 2020 15:59:06)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=756562362249, datestamp=1586353955 (Apr 08 2020 13:52:35)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=2ff2a725fc94, datestamp=1586350374 (Apr 08 2020 12:52:54)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=dbdcf65ba7d0, datestamp=1586347030 (Apr 08 2020 11:57:10)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=dbe3bc5f9baa, datestamp=1586343389 (Apr 08 2020 10:56:29)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=56e54471751b, datestamp=1586339559 (Apr 08 2020 09:52:39)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=f1631a7596a5, datestamp=1586335994 (Apr 08 2020 08:53:14)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=8856774036ce, datestamp=1586335314 (Apr 08 2020 08:41:54)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=d6b8345d3a4d, datestamp=1586326837 (Apr 08 2020 06:20:37)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=a465658acb4c, datestamp=1586320163 (Apr 08 2020 04:29:23)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=f4a586cc802f, datestamp=1586309768 (Apr 08 2020 01:36:08)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.232 (0) Examining (for files) backup set with nonce=aef293dfb670, datestamp=1586303903 (Apr 07 2020 23:58:23)
+0007.232 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=8e950be1659c, datestamp=1586299886 (Apr 07 2020 22:51:26)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=f724def0ae21, datestamp=1586292809 (Apr 07 2020 20:53:29)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=8ab05161d5e1, datestamp=1586289182 (Apr 07 2020 19:53:02)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=13fda17f7cbb, datestamp=1586285553 (Apr 07 2020 18:52:33)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=10a2fd1f231a, datestamp=1586282046 (Apr 07 2020 17:54:06)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=fa2d35bc41fd, datestamp=1586278354 (Apr 07 2020 16:52:34)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=20e5dd0caf8b, datestamp=1586274789 (Apr 07 2020 15:53:09)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=a5dd2c3a8c35, datestamp=1586271163 (Apr 07 2020 14:52:43)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=1e41d33566da, datestamp=1586267681 (Apr 07 2020 13:54:41)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=64cd4502160b, datestamp=1586267535 (Apr 07 2020 13:52:15)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=6afa4a0a7a57, datestamp=1586264026 (Apr 07 2020 12:53:46)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=381fc963f0aa, datestamp=1586260397 (Apr 07 2020 11:53:17)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=b25d98571bef, datestamp=1586258049 (Apr 07 2020 11:14:09)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=f51e8245aec5, datestamp=1586253185 (Apr 07 2020 09:53:05)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=9fffad666948, datestamp=1586249630 (Apr 07 2020 08:53:50)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=bbc56c53efd3, datestamp=1586246142 (Apr 07 2020 07:55:42)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=bf043bd7f911, datestamp=1586243916 (Apr 07 2020 07:18:36)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=70e9008042f9, datestamp=1586238762 (Apr 07 2020 05:52:42)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=8313748090fe, datestamp=1586231546 (Apr 07 2020 03:52:26)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=c9b7eaf9a56a, datestamp=1586227955 (Apr 07 2020 02:52:35)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=a9b63a6451de, datestamp=1586224355 (Apr 07 2020 01:52:35)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.233 (0) Examining (for files) backup set with nonce=2108cf371787, datestamp=1586220755 (Apr 07 2020 00:52:35)
+0007.233 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=e0f4cb75b360, datestamp=1586217155 (Apr 06 2020 23:52:35)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=d562cc5e3005, datestamp=1586213555 (Apr 06 2020 22:52:35)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=3a1b4ebaaa17, datestamp=1586210186 (Apr 06 2020 21:56:26)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=a6167aaad1fe, datestamp=1586203056 (Apr 06 2020 19:57:36)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=3211845786dd, datestamp=1586199307 (Apr 06 2020 18:55:07)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=efb880785521, datestamp=1586195658 (Apr 06 2020 17:54:18)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=746cc65d9b24, datestamp=1586192045 (Apr 06 2020 16:54:05)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Examining (for files) backup set with nonce=13bc78e323bb, datestamp=1586188422 (Apr 06 2020 15:53:42)
+0007.234 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.234 (0) Retain: saving new backup history (sets now: 210) and finishing retain operation
+0007.260 (0) Resume backup (0cba9a378009, 0): finish run
+0007.265 (0) Decremented the semaphore (d) by 1
+0007.268 (0) Semaphore (d) unlocked
+0007.269 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0007.281 (0) No email will/can be sent - the user has not configured an email address.
+0007.282 (0) The backup apparently succeeded and is now complete

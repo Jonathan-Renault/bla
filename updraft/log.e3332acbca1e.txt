@@ -1,0 +1,977 @@
+0000.000 (0) Opened log file at time: Fri, 03 Apr 2020 00:07:12 +0000 on https://bojelo.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 115.8M | 120M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 1439571.9 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: every2hours)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1585866924, seconds_ago=5508)
+0000.019 (0) Set semaphore last lock (fd) time to 2020-04-03 00:07:12
+0000.022 (0) Semaphore lock (fd) complete
+0000.033 (0) Backup run: resumption=0, nonce=e3332acbca1e, file_nonce=e3332acbca1e begun at=1585872432 (0s ago), job type=backup
+0000.036 (0) Scheduling a resumption (1) after 300 seconds (1585872732) in case this run gets aborted
+0000.042 (0) Checking if we have a zip executable available
+0000.043 (0) Testing: /usr/bin/zip
+0000.057 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.059 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.062 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.063 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.077 (0) Working binary zip found: /usr/bin/zip
+0000.081 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.083 (0) Creation of backups of directories: beginning
+0000.087 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.320 (0) Total entities for the zip file: 2764 directories, 14967 files (0 skipped as non-modified), 219 MB
+0000.329 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.336 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.343 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.350 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.356 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 14967 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.043 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 2.90 MB
+0001.050 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 600 files added (on-disk size: 2934.3 KB)
+0001.055 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 700 files added (on-disk size: 2934.3 KB)
+0001.061 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 800 files added (on-disk size: 2934.3 KB)
+0001.066 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 900 files added (on-disk size: 2934.3 KB)
+0001.071 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1000 files added (on-disk size: 2934.3 KB)
+0001.073 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 14967 files batched, 501 (1002) added so far); re-opening (prior size: 2934.3 KB)
+0001.674 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 5.40 MB
+0001.684 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1100 files added (on-disk size: 5542.6 KB)
+0001.691 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1200 files added (on-disk size: 5542.6 KB)
+0001.699 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1300 files added (on-disk size: 5542.6 KB)
+0001.704 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1400 files added (on-disk size: 5542.6 KB)
+0001.709 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1500 files added (on-disk size: 5542.6 KB)
+0001.710 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.5 MB, 14967 files batched, 501 (1503) added so far); re-opening (prior size: 5542.6 KB)
+0002.301 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 7.90 MB
+0002.309 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1600 files added (on-disk size: 8091 KB)
+0002.315 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1700 files added (on-disk size: 8091 KB)
+0002.320 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1800 files added (on-disk size: 8091 KB)
+0002.326 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 1900 files added (on-disk size: 8091 KB)
+0002.331 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2000 files added (on-disk size: 8091 KB)
+0002.333 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 14967 files batched, 501 (2004) added so far); re-opening (prior size: 8091 KB)
+0002.634 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2100 files added (on-disk size: 9431 KB)
+0002.641 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2200 files added (on-disk size: 9431 KB)
+0002.646 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2300 files added (on-disk size: 9431 KB)
+0002.652 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2400 files added (on-disk size: 9431 KB)
+0002.657 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2500 files added (on-disk size: 9431 KB)
+0002.658 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 14967 files batched, 501 (2505) added so far); re-opening (prior size: 9431 KB)
+0002.962 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2600 files added (on-disk size: 10654.9 KB)
+0002.967 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2700 files added (on-disk size: 10654.9 KB)
+0002.972 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2800 files added (on-disk size: 10654.9 KB)
+0002.976 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 2900 files added (on-disk size: 10654.9 KB)
+0002.982 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3000 files added (on-disk size: 10654.9 KB)
+0002.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 14967 files batched, 501 (3006) added so far); re-opening (prior size: 10654.9 KB)
+0003.351 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 14.20 MB
+0003.358 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3100 files added (on-disk size: 14525.3 KB)
+0003.364 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3200 files added (on-disk size: 14525.3 KB)
+0003.369 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3300 files added (on-disk size: 14525.3 KB)
+0003.376 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3400 files added (on-disk size: 14525.3 KB)
+0003.381 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3500 files added (on-disk size: 14525.3 KB)
+0003.383 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 14967 files batched, 501 (3507) added so far); re-opening (prior size: 14525.3 KB)
+0004.250 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 18.90 MB
+0004.259 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3600 files added (on-disk size: 19318.4 KB)
+0004.265 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3700 files added (on-disk size: 19318.4 KB)
+0004.271 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3800 files added (on-disk size: 19318.4 KB)
+0004.278 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 3900 files added (on-disk size: 19318.4 KB)
+0004.284 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4000 files added (on-disk size: 19318.4 KB)
+0004.286 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 14967 files batched, 501 (4008) added so far); re-opening (prior size: 19318.4 KB)
+0005.191 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4100 files added (on-disk size: 21949.7 KB)
+0005.197 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4200 files added (on-disk size: 21949.7 KB)
+0005.204 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4300 files added (on-disk size: 21949.7 KB)
+0005.210 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4400 files added (on-disk size: 21949.7 KB)
+0005.217 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4500 files added (on-disk size: 21949.7 KB)
+0005.219 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 14967 files batched, 501 (4509) added so far); re-opening (prior size: 21949.7 KB)
+0005.875 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: size is now: 27.00 MB
+0005.884 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4600 files added (on-disk size: 27682.8 KB)
+0005.890 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4700 files added (on-disk size: 27682.8 KB)
+0005.895 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4800 files added (on-disk size: 27682.8 KB)
+0005.900 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 4900 files added (on-disk size: 27682.8 KB)
+0005.905 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5000 files added (on-disk size: 27682.8 KB)
+0005.906 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 14967 files batched, 501 (5010) added so far); re-opening (prior size: 27682.8 KB)
+0006.445 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5100 files added (on-disk size: 29867.2 KB)
+0006.450 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5200 files added (on-disk size: 29867.2 KB)
+0006.455 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5300 files added (on-disk size: 29867.2 KB)
+0006.459 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5400 files added (on-disk size: 29867.2 KB)
+0006.463 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5500 files added (on-disk size: 29867.2 KB)
+0006.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 14967 files batched, 501 (5511) added so far); re-opening (prior size: 29867.2 KB)
+0006.799 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5600 files added (on-disk size: 33180.2 KB)
+0006.803 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5700 files added (on-disk size: 33180.2 KB)
+0006.808 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5800 files added (on-disk size: 33180.2 KB)
+0006.812 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 5900 files added (on-disk size: 33180.2 KB)
+0006.817 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6000 files added (on-disk size: 33180.2 KB)
+0006.818 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 14967 files batched, 501 (6012) added so far); re-opening (prior size: 33180.2 KB)
+0007.386 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6100 files added (on-disk size: 37047.1 KB)
+0007.391 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6200 files added (on-disk size: 37047.1 KB)
+0007.396 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6300 files added (on-disk size: 37047.1 KB)
+0007.401 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6400 files added (on-disk size: 37047.1 KB)
+0007.405 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6500 files added (on-disk size: 37047.1 KB)
+0007.407 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 14967 files batched, 501 (6513) added so far); re-opening (prior size: 37047.1 KB)
+0007.681 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6600 files added (on-disk size: 37918.2 KB)
+0007.688 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6700 files added (on-disk size: 37918.2 KB)
+0007.693 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6800 files added (on-disk size: 37918.2 KB)
+0007.698 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 6900 files added (on-disk size: 37918.2 KB)
+0007.703 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7000 files added (on-disk size: 37918.2 KB)
+0007.705 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 14967 files batched, 501 (7014) added so far); re-opening (prior size: 37918.2 KB)
+0008.146 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7100 files added (on-disk size: 39477.8 KB)
+0008.154 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7200 files added (on-disk size: 39477.8 KB)
+0008.159 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7300 files added (on-disk size: 39477.8 KB)
+0008.164 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7400 files added (on-disk size: 39477.8 KB)
+0008.169 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7500 files added (on-disk size: 39477.8 KB)
+0008.171 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 14967 files batched, 501 (7515) added so far); re-opening (prior size: 39477.8 KB)
+0008.631 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7600 files added (on-disk size: 41291.7 KB)
+0008.636 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7700 files added (on-disk size: 41291.7 KB)
+0008.640 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7800 files added (on-disk size: 41291.7 KB)
+0008.645 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 7900 files added (on-disk size: 41291.7 KB)
+0008.650 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8000 files added (on-disk size: 41291.7 KB)
+0008.652 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 14967 files batched, 501 (8016) added so far); re-opening (prior size: 41291.7 KB)
+0008.968 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8100 files added (on-disk size: 43401.1 KB)
+0008.973 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8200 files added (on-disk size: 43401.1 KB)
+0008.977 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8300 files added (on-disk size: 43401.1 KB)
+0008.982 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8400 files added (on-disk size: 43401.1 KB)
+0008.986 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8500 files added (on-disk size: 43401.1 KB)
+0008.988 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 14967 files batched, 501 (8517) added so far); re-opening (prior size: 43401.1 KB)
+0009.338 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8600 files added (on-disk size: 44097.4 KB)
+0009.343 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8700 files added (on-disk size: 44097.4 KB)
+0009.348 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8800 files added (on-disk size: 44097.4 KB)
+0009.352 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 8900 files added (on-disk size: 44097.4 KB)
+0009.357 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9000 files added (on-disk size: 44097.4 KB)
+0009.359 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 14967 files batched, 501 (9018) added so far); re-opening (prior size: 44097.4 KB)
+0010.056 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9100 files added (on-disk size: 46532.4 KB)
+0010.061 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9200 files added (on-disk size: 46532.4 KB)
+0010.066 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9300 files added (on-disk size: 46532.4 KB)
+0010.072 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9400 files added (on-disk size: 46532.4 KB)
+0010.077 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9500 files added (on-disk size: 46532.4 KB)
+0010.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 14967 files batched, 501 (9519) added so far); re-opening (prior size: 46532.4 KB)
+0010.950 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9600 files added (on-disk size: 49755.9 KB)
+0010.955 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9700 files added (on-disk size: 49755.9 KB)
+0010.961 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9800 files added (on-disk size: 49755.9 KB)
+0010.966 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 9900 files added (on-disk size: 49755.9 KB)
+0010.971 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10000 files added (on-disk size: 49755.9 KB)
+0010.973 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 14967 files batched, 501 (10020) added so far); re-opening (prior size: 49755.9 KB)
+0011.400 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10100 files added (on-disk size: 51056.5 KB)
+0011.405 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10200 files added (on-disk size: 51056.5 KB)
+0011.409 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10300 files added (on-disk size: 51056.5 KB)
+0011.414 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10400 files added (on-disk size: 51056.5 KB)
+0011.419 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10500 files added (on-disk size: 51056.5 KB)
+0011.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 14967 files batched, 501 (10521) added so far); re-opening (prior size: 51056.5 KB)
+0011.929 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10600 files added (on-disk size: 53521.6 KB)
+0011.934 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10700 files added (on-disk size: 53521.6 KB)
+0011.939 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10800 files added (on-disk size: 53521.6 KB)
+0011.944 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 10900 files added (on-disk size: 53521.6 KB)
+0011.948 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11000 files added (on-disk size: 53521.6 KB)
+0011.950 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 14967 files batched, 501 (11022) added so far); re-opening (prior size: 53521.6 KB)
+0012.288 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11100 files added (on-disk size: 54624.8 KB)
+0012.293 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11200 files added (on-disk size: 54624.8 KB)
+0012.299 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11300 files added (on-disk size: 54624.8 KB)
+0012.304 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11400 files added (on-disk size: 54624.8 KB)
+0012.309 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11500 files added (on-disk size: 54624.8 KB)
+0012.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.7 MB, 14967 files batched, 501 (11523) added so far); re-opening (prior size: 54624.8 KB)
+0013.087 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11600 files added (on-disk size: 58237.3 KB)
+0013.098 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11700 files added (on-disk size: 58237.3 KB)
+0013.107 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11800 files added (on-disk size: 58237.3 KB)
+0013.114 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 11900 files added (on-disk size: 58237.3 KB)
+0013.120 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12000 files added (on-disk size: 58237.3 KB)
+0013.122 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 14967 files batched, 501 (12024) added so far); re-opening (prior size: 58237.3 KB)
+0013.588 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12100 files added (on-disk size: 60489.7 KB)
+0013.602 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12200 files added (on-disk size: 60489.7 KB)
+0013.610 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12300 files added (on-disk size: 60489.7 KB)
+0013.615 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12400 files added (on-disk size: 60489.7 KB)
+0013.623 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12500 files added (on-disk size: 60489.7 KB)
+0013.629 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 14967 files batched, 501 (12525) added so far); re-opening (prior size: 60489.7 KB)
+0014.150 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12600 files added (on-disk size: 62381.3 KB)
+0014.155 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12700 files added (on-disk size: 62381.3 KB)
+0014.160 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12800 files added (on-disk size: 62381.3 KB)
+0014.165 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 12900 files added (on-disk size: 62381.3 KB)
+0014.169 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13000 files added (on-disk size: 62381.3 KB)
+0014.173 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 14967 files batched, 501 (13026) added so far); re-opening (prior size: 62381.3 KB)
+0014.727 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13100 files added (on-disk size: 64521.2 KB)
+0014.732 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13200 files added (on-disk size: 64521.2 KB)
+0014.737 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13300 files added (on-disk size: 64521.2 KB)
+0014.741 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13400 files added (on-disk size: 64521.2 KB)
+0014.746 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13500 files added (on-disk size: 64521.2 KB)
+0014.748 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 14967 files batched, 501 (13527) added so far); re-opening (prior size: 64521.2 KB)
+0015.091 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13600 files added (on-disk size: 65180.9 KB)
+0015.096 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13700 files added (on-disk size: 65180.9 KB)
+0015.101 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13800 files added (on-disk size: 65180.9 KB)
+0015.105 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 13900 files added (on-disk size: 65180.9 KB)
+0015.110 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14000 files added (on-disk size: 65180.9 KB)
+0015.112 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.2 MB, 14967 files batched, 501 (14028) added so far); re-opening (prior size: 65180.9 KB)
+0016.221 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14100 files added (on-disk size: 70394.8 KB)
+0016.226 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14200 files added (on-disk size: 70394.8 KB)
+0016.231 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14300 files added (on-disk size: 70394.8 KB)
+0016.237 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14400 files added (on-disk size: 70394.8 KB)
+0016.242 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14500 files added (on-disk size: 70394.8 KB)
+0016.244 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 14967 files batched, 501 (14529) added so far); re-opening (prior size: 70394.8 KB)
+0016.631 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14600 files added (on-disk size: 71124.2 KB)
+0016.638 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14700 files added (on-disk size: 71124.2 KB)
+0016.644 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14800 files added (on-disk size: 71124.2 KB)
+0016.650 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip.tmp: 14900 files added (on-disk size: 71124.2 KB)
+0017.828 (0) Created plugins zip (0) - 72162 KB in 17.7 s (4067.8 KB/s) (sha1: f7b52c3c6c3c7bdeea2b834d834945939ddcca4f, sha256: bbe3082364acfb4ac4c77b9fe6c064cae150ba3b13b8f15ed15c238fc2ce944a)
+0017.833 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.853 (0) Total entities for the zip file: 195 directories, 1259 files (0 skipped as non-modified), 19.3 MB
+0017.858 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.863 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.867 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.872 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.876 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 1259 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0018.314 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: size is now: 5.30 MB
+0018.324 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 600 files added (on-disk size: 5398.8 KB)
+0018.329 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 700 files added (on-disk size: 5398.8 KB)
+0018.334 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 800 files added (on-disk size: 5398.8 KB)
+0018.338 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 900 files added (on-disk size: 5398.8 KB)
+0018.343 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 1000 files added (on-disk size: 5398.8 KB)
+0018.344 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 1259 files batched, 501 (1002) added so far); re-opening (prior size: 5398.8 KB)
+0018.685 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: size is now: 8.90 MB
+0018.691 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 1100 files added (on-disk size: 9131.9 KB)
+0018.696 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip.tmp: 1200 files added (on-disk size: 9131.9 KB)
+0018.928 (0) Created themes zip (0) - 10808.6 KB in 1.1 s (9886.4 KB/s) (sha1: a61db4f84c2432d6d66bc6dadc804269a0ad4262, sha256: e5d7624c77043f51159d459ceef615effe27dee6614f46aff2b33fc938efaf53)
+0018.931 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.932 (0) Looking for candidates to backup in: /homepages/8/d817576993/htdocs/app817638129/wp-content/uploads
+0018.933 (0) finding files: fw-backup: adding to list (1)
+0018.934 (0) finding files: 2018: adding to list (2)
+0018.935 (0) finding files: 2019: adding to list (3)
+0018.936 (0) finding files: avatars: adding to list (4)
+0018.937 (0) finding files: buddypress: adding to list (5)
+0018.938 (0) finding files: group-avatars: adding to list (6)
+0018.939 (0) finding files: rtMedia: adding to list (7)
+0018.940 (0) finding files: youzer: adding to list (8)
+0018.941 (0) finding files: 2020: adding to list (9)
+0018.942 (0) finding files: woocommerce_uploads: adding to list (10)
+0018.943 (0) finding files: wc-logs: adding to list (11)
+0018.943 (0) finding files: woocommerce-placeholder.png: adding to list (12)
+0018.944 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (13)
+0018.945 (0) finding files: js_composer: adding to list (14)
+0018.946 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (15)
+0018.947 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (16)
+0018.948 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (17)
+0018.948 (0) finding files: woocommerce-placeholder-320x240.png: adding to list (18)
+0018.949 (0) finding files: woocommerce-placeholder-800x800.png: adding to list (19)
+0018.950 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (20)
+0018.951 (0) finding files: woocommerce-placeholder-1038x576.png: adding to list (21)
+0018.952 (0) finding files: woocommerce-placeholder-110x110.png: adding to list (22)
+0018.953 (0) finding files: woocommerce-placeholder-370x300.png: adding to list (23)
+0018.954 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (24)
+0018.955 (0) finding files: brizy: adding to list (25)
+0018.956 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.970 (0) Total entities for the zip file: 64 directories, 924 files (0 skipped as non-modified), 58.6 MB
+0018.974 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.979 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.983 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.988 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.993 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.994 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.1 MB, 924 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0019.239 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: size is now: 22.20 MB
+0019.246 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 600 files added (on-disk size: 22685.3 KB)
+0019.251 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 700 files added (on-disk size: 22685.3 KB)
+0019.256 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 800 files added (on-disk size: 22685.3 KB)
+0019.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 924 files batched, 314 (815) added so far); re-opening (prior size: 22685.3 KB)
+0019.513 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: size is now: 47.30 MB
+0019.516 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 23931 KB/s)
+0019.520 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0727760791779, normalised_time=1.0697431461391, max_time=19.517312049866, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0019.526 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: 900 files added (on-disk size: 48427.8 KB)
+0019.730 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip.tmp: size is now: 58.70 MB
+0020.357 (0) Created uploads zip (0) - 60111.1 KB in 1.4 s (42943.7 KB/s) (sha1: fcdf4a92e456664616b2a7d951e5eb076ea1b717, sha256: b2f199533f661b5cc432dd384dc64613d12f9e1070f7ee5e28248e1840c2c724)
+0020.360 (0) Beginning backup of other directories found in the content directory (index: 0)
+0020.362 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0020.363 (0) Looking for candidates to backup in: /homepages/8/d817576993/htdocs/app817638129/wp-content
+0020.364 (0) finding files: plugins: skipping: this is the plugins directory
+0020.365 (0) finding files: themes: skipping: this is the themes directory
+0020.366 (0) finding files: mu-plugins: adding to list (1)
+0020.367 (0) finding files: uploads: skipping: this is the uploads directory
+0020.368 (0) finding files: upgrade: skipping: excluded by options
+0020.369 (0) finding files: languages: adding to list (2)
+0020.370 (0) finding files: ngg: adding to list (3)
+0020.371 (0) finding files: gallery: adding to list (4)
+0020.372 (0) finding files: .git: adding to list (5)
+0020.373 (0) finding files: .gitignore: adding to list (6)
+0020.374 (0) finding files: debug.log: skipping: excluded by options
+0020.375 (0) finding files: index.php: adding to list (7)
+0020.376 (0) finding files: php.ini: adding to list (8)
+0020.377 (0) finding files: updraft: skipping: this is the updraft directory
+0020.387 (0) Total entities for the zip file: 60 directories, 516 files (0 skipped as non-modified), 127.6 MB
+0020.391 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.396 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.400 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.405 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.410 (0) Zip: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (125.5 MB, 516 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0026.040 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip.tmp: size is now: 108.80 MB
+0027.431 (0) Created others zip (0) - 111977.5 KB in 7.1 s (15877.8 KB/s) (sha1: b5c2abfba985176cf05e6bda638ac5cedc3fc5d0, sha256: 172ec41c84b55b283d4ca29db838856c4c11323d874a9258ed8227e34f992627)
+0027.437 (0) Saving backup status to database (elements: 8)
+0027.442 (0) Beginning creation of database dump (WordPress DB)
+0027.445 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0027.465 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `tmg1h9h024options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1258 bytes total)
+0027.467 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0027.476 (0) Table tmg1h9h024options: Total expected rows (approximate): 1623
+0027.567 (0) Table tmg1h9h024options: Total rows added: 2271 in 0.09 seconds
+0027.570 (0) Table tmg1h9h024options: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024options.table.gz - 283.8 KB)
+0027.575 (0) Table tmg1h9h024users: Total expected rows (approximate): 24
+0027.578 (0) Table tmg1h9h024users: Total rows added: 24 in 0.00 seconds
+0027.579 (0) Table tmg1h9h024users: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024users.table.gz - 2.5 KB)
+0027.585 (0) Table tmg1h9h024usermeta: Total expected rows (approximate): 624
+0027.590 (0) Table tmg1h9h024usermeta: Total rows added: 624 in 0.00 seconds
+0027.592 (0) Table tmg1h9h024usermeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024usermeta.table.gz - 8.9 KB)
+0027.596 (0) Table tmg1h9h024actionscheduler_actions: Total expected rows (approximate): 56
+0027.600 (0) Table tmg1h9h024actionscheduler_actions: Total rows added: 56 in 0.00 seconds
+0027.601 (0) Table tmg1h9h024actionscheduler_actions: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_actions.table.gz - 2.6 KB)
+0027.606 (0) Table tmg1h9h024actionscheduler_claims: Total expected rows (approximate): 0
+0027.608 (0) Table tmg1h9h024actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0027.609 (0) Table tmg1h9h024actionscheduler_claims: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_claims.table.gz - 0.4 KB)
+0027.614 (0) Table tmg1h9h024actionscheduler_groups: Total expected rows (approximate): 5
+0027.617 (0) Table tmg1h9h024actionscheduler_groups: Total rows added: 5 in 0.00 seconds
+0027.618 (0) Table tmg1h9h024actionscheduler_groups: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_groups.table.gz - 0.4 KB)
+0027.626 (0) Table tmg1h9h024actionscheduler_logs: Total expected rows (approximate): 166
+0027.633 (0) Table tmg1h9h024actionscheduler_logs: Total rows added: 166 in 0.00 seconds
+0027.634 (0) Table tmg1h9h024actionscheduler_logs: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_logs.table.gz - 1.9 KB)
+0027.640 (0) Table tmg1h9h024commentmeta: Total expected rows (approximate): 3
+0027.642 (0) Table tmg1h9h024commentmeta: Total rows added: 3 in 0.00 seconds
+0027.643 (0) Table tmg1h9h024commentmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024commentmeta.table.gz - 0.4 KB)
+0027.650 (0) Table tmg1h9h024comments: Total expected rows (approximate): 2
+0027.653 (0) Table tmg1h9h024comments: Total rows added: 2 in 0.00 seconds
+0027.654 (0) Table tmg1h9h024comments: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024comments.table.gz - 0.8 KB)
+0027.660 (0) Table tmg1h9h024links: Total expected rows (approximate): 0
+0027.663 (0) Table tmg1h9h024links: Total rows added: 0 in 0.00 seconds
+0027.664 (0) Table tmg1h9h024links: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024links.table.gz - 0.4 KB)
+0027.676 (0) Table tmg1h9h024postmeta: Total expected rows (approximate): 10586
+0027.755 (0) Table tmg1h9h024postmeta: binary mysqldump finished (writes: 33) in 0.08 seconds
+0027.758 (0) Table tmg1h9h024postmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024postmeta.table.gz - 147.1 KB)
+0027.764 (0) Table tmg1h9h024posts: Total expected rows (approximate): 1009
+0027.808 (0) Table tmg1h9h024posts: Total rows added: 723 in 0.04 seconds
+0027.810 (0) Table tmg1h9h024posts: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024posts.table.gz - 87.8 KB)
+0027.816 (0) Table tmg1h9h024signups: Total expected rows (approximate): 2
+0027.819 (0) Table tmg1h9h024signups: Total rows added: 2 in 0.00 seconds
+0027.820 (0) Table tmg1h9h024signups: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024signups.table.gz - 1 KB)
+0027.827 (0) Table tmg1h9h024statify: Total expected rows (approximate): 666
+0027.833 (0) Table tmg1h9h024statify: Total rows added: 666 in 0.00 seconds
+0027.835 (0) Table tmg1h9h024statify: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024statify.table.gz - 3.5 KB)
+0027.840 (0) Table tmg1h9h024term_relationships: Total expected rows (approximate): 134
+0027.843 (0) Table tmg1h9h024term_relationships: Total rows added: 134 in 0.00 seconds
+0027.845 (0) Table tmg1h9h024term_relationships: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024term_relationships.table.gz - 0.8 KB)
+0027.851 (0) Table tmg1h9h024term_taxonomy: Total expected rows (approximate): 85
+0027.854 (0) Table tmg1h9h024term_taxonomy: Total rows added: 85 in 0.00 seconds
+0027.856 (0) Table tmg1h9h024term_taxonomy: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024term_taxonomy.table.gz - 1.3 KB)
+0027.864 (0) Table tmg1h9h024termmeta: Total expected rows (approximate): 25
+0027.869 (0) Table tmg1h9h024termmeta: Total rows added: 25 in 0.00 seconds
+0027.881 (0) Table tmg1h9h024termmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024termmeta.table.gz - 1.2 KB)
+0027.887 (0) Table tmg1h9h024terms: Total expected rows (approximate): 85
+0027.890 (0) Table tmg1h9h024terms: Total rows added: 85 in 0.00 seconds
+0027.891 (0) Table tmg1h9h024terms: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024terms.table.gz - 1.4 KB)
+0027.896 (0) Table tmg1h9h024wc_category_lookup: Total expected rows (approximate): 4
+0027.898 (0) Table tmg1h9h024wc_category_lookup: Total rows added: 4 in 0.00 seconds
+0027.899 (0) Table tmg1h9h024wc_category_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_category_lookup.table.gz - 0.3 KB)
+0027.904 (0) Table tmg1h9h024wc_product_meta_lookup: Total expected rows (approximate): 21
+0027.908 (0) Table tmg1h9h024wc_product_meta_lookup: Total rows added: 21 in 0.00 seconds
+0027.921 (0) Table tmg1h9h024wc_product_meta_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_product_meta_lookup.table.gz - 0.7 KB)
+0027.927 (0) Table tmg1h9h024wc_tax_rate_classes: Total expected rows (approximate): 4
+0027.929 (0) Table tmg1h9h024wc_tax_rate_classes: Total rows added: 4 in 0.00 seconds
+0027.930 (0) Table tmg1h9h024wc_tax_rate_classes: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_tax_rate_classes.table.gz - 0.4 KB)
+0027.935 (0) Table tmg1h9h024woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0027.938 (0) Table tmg1h9h024woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0027.939 (0) Table tmg1h9h024woocommerce_order_itemmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0027.944 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0027.946 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0027.948 (0) Table tmg1h9h024woocommerce_payment_tokenmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0027.954 (0) Table tmg1h9h024arete_buddypress_smileys_manage: Total expected rows (approximate): 3
+0027.957 (0) Table tmg1h9h024arete_buddypress_smileys_manage: Total rows added: 3 in 0.00 seconds
+0027.959 (0) Table tmg1h9h024arete_buddypress_smileys_manage: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024arete_buddypress_smileys_manage.table.gz - 0.4 KB)
+0027.964 (0) Table tmg1h9h024blc_filters: Total expected rows (approximate): 0
+0027.967 (0) Table tmg1h9h024blc_filters: Total rows added: 0 in 0.00 seconds
+0027.968 (0) Table tmg1h9h024blc_filters: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_filters.table.gz - 0.3 KB)
+0027.973 (0) Table tmg1h9h024blc_instances: Total expected rows (approximate): 22
+0027.976 (0) Table tmg1h9h024blc_instances: Total rows added: 22 in 0.00 seconds
+0027.977 (0) Table tmg1h9h024blc_instances: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_instances.table.gz - 0.8 KB)
+0027.983 (0) Table tmg1h9h024blc_links: Total expected rows (approximate): 12
+0027.987 (0) Table tmg1h9h024blc_links: Total rows added: 12 in 0.00 seconds
+0027.988 (0) Table tmg1h9h024blc_links: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_links.table.gz - 3.9 KB)
+0027.993 (0) Table tmg1h9h024blc_synch: Total expected rows (approximate): 72
+0027.997 (0) Table tmg1h9h024blc_synch: Total rows added: 72 in 0.00 seconds
+0027.999 (0) Table tmg1h9h024blc_synch: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_synch.table.gz - 0.7 KB)
+0028.011 (0) Table tmg1h9h024bp_activity: Total expected rows (approximate): 51
+0028.016 (0) Table tmg1h9h024bp_activity: Total rows added: 68 in 0.00 seconds
+0028.018 (0) Table tmg1h9h024bp_activity: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_activity.table.gz - 4.6 KB)
+0028.025 (0) Table tmg1h9h024bp_activity_meta: Total expected rows (approximate): 18
+0028.028 (0) Table tmg1h9h024bp_activity_meta: Total rows added: 18 in 0.00 seconds
+0028.029 (0) Table tmg1h9h024bp_activity_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_activity_meta.table.gz - 1.4 KB)
+0028.035 (0) Table tmg1h9h024bp_friends: Total expected rows (approximate): 9
+0028.037 (0) Table tmg1h9h024bp_friends: Total rows added: 9 in 0.00 seconds
+0028.039 (0) Table tmg1h9h024bp_friends: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_friends.table.gz - 0.5 KB)
+0028.044 (0) Table tmg1h9h024bp_groups: Total expected rows (approximate): 2
+0028.047 (0) Table tmg1h9h024bp_groups: Total rows added: 2 in 0.00 seconds
+0028.050 (0) Table tmg1h9h024bp_groups: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups.table.gz - 0.6 KB)
+0028.057 (0) Table tmg1h9h024bp_groups_groupmeta: Total expected rows (approximate): 16
+0028.059 (0) Table tmg1h9h024bp_groups_groupmeta: Total rows added: 16 in 0.00 seconds
+0028.060 (0) Table tmg1h9h024bp_groups_groupmeta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups_groupmeta.table.gz - 0.6 KB)
+0028.065 (0) Table tmg1h9h024bp_groups_members: Total expected rows (approximate): 3
+0028.068 (0) Table tmg1h9h024bp_groups_members: Total rows added: 3 in 0.00 seconds
+0028.069 (0) Table tmg1h9h024bp_groups_members: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups_members.table.gz - 0.6 KB)
+0028.075 (0) Table tmg1h9h024bp_invitations: Total expected rows (approximate): 0
+0028.078 (0) Table tmg1h9h024bp_invitations: Total rows added: 0 in 0.00 seconds
+0028.080 (0) Table tmg1h9h024bp_invitations: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_invitations.table.gz - 0.5 KB)
+0028.090 (0) Table tmg1h9h024bp_messages_messages: Total expected rows (approximate): 8
+0028.093 (0) Table tmg1h9h024bp_messages_messages: Total rows added: 8 in 0.00 seconds
+0028.099 (0) Table tmg1h9h024bp_messages_messages: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_messages.table.gz - 1 KB)
+0028.106 (0) Table tmg1h9h024bp_messages_meta: Total expected rows (approximate): 0
+0028.110 (0) Table tmg1h9h024bp_messages_meta: Total rows added: 0 in 0.00 seconds
+0028.111 (0) Table tmg1h9h024bp_messages_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_meta.table.gz - 0.4 KB)
+0028.116 (0) Table tmg1h9h024bp_messages_notices: Total expected rows (approximate): 0
+0028.118 (0) Table tmg1h9h024bp_messages_notices: Total rows added: 0 in 0.00 seconds
+0028.119 (0) Table tmg1h9h024bp_messages_notices: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_notices.table.gz - 0.4 KB)
+0028.125 (0) Table tmg1h9h024bp_messages_recipients: Total expected rows (approximate): 10
+0028.128 (0) Table tmg1h9h024bp_messages_recipients: Total rows added: 10 in 0.00 seconds
+0028.130 (0) Table tmg1h9h024bp_messages_recipients: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_recipients.table.gz - 0.5 KB)
+0028.136 (0) Table tmg1h9h024bp_notifications: Total expected rows (approximate): 32
+0028.138 (0) Table tmg1h9h024bp_notifications: Total rows added: 32 in 0.00 seconds
+0028.139 (0) Table tmg1h9h024bp_notifications: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_notifications.table.gz - 1 KB)
+0028.148 (0) Table tmg1h9h024bp_notifications_meta: Total expected rows (approximate): 0
+0028.151 (0) Table tmg1h9h024bp_notifications_meta: Total rows added: 0 in 0.00 seconds
+0028.153 (0) Table tmg1h9h024bp_notifications_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_notifications_meta.table.gz - 0.4 KB)
+0028.161 (0) Table tmg1h9h024bp_xprofile_data: Total expected rows (approximate): 75
+0028.165 (0) Table tmg1h9h024bp_xprofile_data: Total rows added: 75 in 0.00 seconds
+0028.167 (0) Table tmg1h9h024bp_xprofile_data: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_data.table.gz - 3.3 KB)
+0028.172 (0) Table tmg1h9h024bp_xprofile_fields: Total expected rows (approximate): 23
+0028.175 (0) Table tmg1h9h024bp_xprofile_fields: Total rows added: 23 in 0.00 seconds
+0028.177 (0) Table tmg1h9h024bp_xprofile_fields: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_fields.table.gz - 1.1 KB)
+0028.184 (0) Table tmg1h9h024bp_xprofile_groups: Total expected rows (approximate): 4
+0028.187 (0) Table tmg1h9h024bp_xprofile_groups: Total rows added: 4 in 0.00 seconds
+0028.188 (0) Table tmg1h9h024bp_xprofile_groups: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_groups.table.gz - 0.5 KB)
+0028.195 (0) Table tmg1h9h024bp_xprofile_meta: Total expected rows (approximate): 126
+0028.198 (0) Table tmg1h9h024bp_xprofile_meta: Total rows added: 126 in 0.00 seconds
+0028.199 (0) Table tmg1h9h024bp_xprofile_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_meta.table.gz - 1.3 KB)
+0028.206 (0) Table tmg1h9h024brizy_logs: Total expected rows (approximate): 144
+0028.278 (0) Table tmg1h9h024brizy_logs: Total rows added: 144 in 0.07 seconds
+0028.282 (0) Table tmg1h9h024brizy_logs: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024brizy_logs.table.gz - 63.7 KB)
+0028.287 (0) Table tmg1h9h024logy_users: Total expected rows (approximate): 0
+0028.291 (0) Table tmg1h9h024logy_users: Total rows added: 0 in 0.00 seconds
+0028.292 (0) Table tmg1h9h024logy_users: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024logy_users.table.gz - 0.5 KB)
+0028.297 (0) Table tmg1h9h024mycred_log: Total expected rows (approximate): 106
+0028.301 (0) Table tmg1h9h024mycred_log: Total rows added: 106 in 0.00 seconds
+0028.302 (0) Table tmg1h9h024mycred_log: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024mycred_log.table.gz - 1.9 KB)
+0028.307 (0) Table tmg1h9h024rt_rtm_activity: Total expected rows (approximate): 79
+0028.310 (0) Table tmg1h9h024rt_rtm_activity: Total rows added: 79 in 0.00 seconds
+0028.311 (0) Table tmg1h9h024rt_rtm_activity: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_activity.table.gz - 0.6 KB)
+0028.316 (0) Table tmg1h9h024rt_rtm_api: Total expected rows (approximate): 0
+0028.320 (0) Table tmg1h9h024rt_rtm_api: Total rows added: 0 in 0.00 seconds
+0028.321 (0) Table tmg1h9h024rt_rtm_api: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_api.table.gz - 0.3 KB)
+0028.325 (0) Table tmg1h9h024rt_rtm_media: Total expected rows (approximate): 15
+0028.329 (0) Table tmg1h9h024rt_rtm_media: Total rows added: 15 in 0.00 seconds
+0028.330 (0) Table tmg1h9h024rt_rtm_media: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media.table.gz - 1.1 KB)
+0028.335 (0) Table tmg1h9h024rt_rtm_media_interaction: Total expected rows (approximate): 35
+0028.337 (0) Table tmg1h9h024rt_rtm_media_interaction: Total rows added: 35 in 0.00 seconds
+0028.338 (0) Table tmg1h9h024rt_rtm_media_interaction: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media_interaction.table.gz - 0.9 KB)
+0028.344 (0) Table tmg1h9h024rt_rtm_media_meta: Total expected rows (approximate): 12
+0028.348 (0) Table tmg1h9h024rt_rtm_media_meta: Total rows added: 12 in 0.00 seconds
+0028.352 (0) Table tmg1h9h024rt_rtm_media_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media_meta.table.gz - 0.5 KB)
+0028.357 (0) Table tmg1h9h024social_users: Total expected rows (approximate): 0
+0028.359 (0) Table tmg1h9h024social_users: Total rows added: 0 in 0.00 seconds
+0028.361 (0) Table tmg1h9h024social_users: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024social_users.table.gz - 0.4 KB)
+0028.366 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: Total expected rows (approximate): 250
+0028.371 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: Total rows added: 250 in 0.00 seconds
+0028.372 (0) Table tmg1h9h024trp_dictionary_fr_fr_en_gb: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_dictionary_fr_fr_en_gb.table.gz - 5.8 KB)
+0028.377 (0) Table tmg1h9h024trp_gettext_en_gb: Total expected rows (approximate): 460
+0028.382 (0) Table tmg1h9h024trp_gettext_en_gb: Total rows added: 460 in 0.00 seconds
+0028.384 (0) Table tmg1h9h024trp_gettext_en_gb: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_gettext_en_gb.table.gz - 6 KB)
+0028.389 (0) Table tmg1h9h024trp_gettext_fr_fr: Total expected rows (approximate): 5720
+0028.455 (0) Table tmg1h9h024trp_gettext_fr_fr: Total rows added: 5720 in 0.06 seconds
+0028.458 (0) Table tmg1h9h024trp_gettext_fr_fr: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_gettext_fr_fr.table.gz - 110.8 KB)
+0028.464 (0) Table tmg1h9h024trp_original_meta: Total expected rows (approximate): 66
+0028.470 (0) Table tmg1h9h024trp_original_meta: Total rows added: 66 in 0.00 seconds
+0028.471 (0) Table tmg1h9h024trp_original_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_original_meta.table.gz - 0.8 KB)
+0028.477 (0) Table tmg1h9h024trp_original_strings: Total expected rows (approximate): 250
+0028.481 (0) Table tmg1h9h024trp_original_strings: Total rows added: 250 in 0.00 seconds
+0028.483 (0) Table tmg1h9h024trp_original_strings: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_original_strings.table.gz - 4.9 KB)
+0028.488 (0) Table tmg1h9h024wc_admin_note_actions: Total expected rows (approximate): 12
+0028.491 (0) Table tmg1h9h024wc_admin_note_actions: Total rows added: 12 in 0.00 seconds
+0028.492 (0) Table tmg1h9h024wc_admin_note_actions: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_admin_note_actions.table.gz - 1 KB)
+0028.498 (0) Table tmg1h9h024wc_admin_notes: Total expected rows (approximate): 9
+0028.500 (0) Table tmg1h9h024wc_admin_notes: Total rows added: 9 in 0.00 seconds
+0028.502 (0) Table tmg1h9h024wc_admin_notes: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_admin_notes.table.gz - 1.8 KB)
+0028.510 (0) Table tmg1h9h024wc_customer_lookup: Total expected rows (approximate): 0
+0028.513 (0) Table tmg1h9h024wc_customer_lookup: Total rows added: 0 in 0.00 seconds
+0028.514 (0) Table tmg1h9h024wc_customer_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_customer_lookup.table.gz - 0.5 KB)
+0028.526 (0) Table tmg1h9h024wc_download_log: Total expected rows (approximate): 0
+0028.528 (0) Table tmg1h9h024wc_download_log: Total rows added: 0 in 0.00 seconds
+0028.530 (0) Table tmg1h9h024wc_download_log: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_download_log.table.gz - 0.5 KB)
+0028.535 (0) Table tmg1h9h024wc_order_coupon_lookup: Total expected rows (approximate): 0
+0028.538 (0) Table tmg1h9h024wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0028.539 (0) Table tmg1h9h024wc_order_coupon_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_coupon_lookup.table.gz - 0.4 KB)
+0028.544 (0) Table tmg1h9h024wc_order_product_lookup: Total expected rows (approximate): 0
+0028.547 (0) Table tmg1h9h024wc_order_product_lookup: Total rows added: 0 in 0.00 seconds
+0028.548 (0) Table tmg1h9h024wc_order_product_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_product_lookup.table.gz - 0.4 KB)
+0028.555 (0) Table tmg1h9h024wc_order_stats: Total expected rows (approximate): 0
+0028.558 (0) Table tmg1h9h024wc_order_stats: Total rows added: 0 in 0.00 seconds
+0028.559 (0) Table tmg1h9h024wc_order_stats: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_stats.table.gz - 0.5 KB)
+0028.564 (0) Table tmg1h9h024wc_order_tax_lookup: Total expected rows (approximate): 0
+0028.566 (0) Table tmg1h9h024wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0028.567 (0) Table tmg1h9h024wc_order_tax_lookup: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_tax_lookup.table.gz - 0.4 KB)
+0028.572 (0) Table tmg1h9h024wc_webhooks: Total expected rows (approximate): 0
+0028.575 (0) Table tmg1h9h024wc_webhooks: Total rows added: 0 in 0.00 seconds
+0028.577 (0) Table tmg1h9h024wc_webhooks: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_webhooks.table.gz - 0.5 KB)
+0028.582 (0) Table tmg1h9h024woocommerce_api_keys: Total expected rows (approximate): 0
+0028.585 (0) Table tmg1h9h024woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0028.586 (0) Table tmg1h9h024woocommerce_api_keys: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_api_keys.table.gz - 0.4 KB)
+0028.591 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0028.594 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0028.596 (0) Table tmg1h9h024woocommerce_attribute_taxonomies: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0028.602 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0028.605 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0028.607 (0) Table tmg1h9h024woocommerce_downloadable_product_permissions: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0028.613 (0) Table tmg1h9h024woocommerce_log: Total expected rows (approximate): 0
+0028.615 (0) Table tmg1h9h024woocommerce_log: Total rows added: 0 in 0.00 seconds
+0028.617 (0) Table tmg1h9h024woocommerce_log: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_log.table.gz - 0.4 KB)
+0028.623 (0) Table tmg1h9h024woocommerce_order_items: Total expected rows (approximate): 0
+0028.629 (0) Table tmg1h9h024woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0028.631 (0) Table tmg1h9h024woocommerce_order_items: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_order_items.table.gz - 0.4 KB)
+0028.639 (0) Table tmg1h9h024woocommerce_payment_tokens: Total expected rows (approximate): 0
+0028.644 (0) Table tmg1h9h024woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0028.646 (0) Table tmg1h9h024woocommerce_payment_tokens: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_payment_tokens.table.gz - 0.4 KB)
+0028.651 (0) Table tmg1h9h024woocommerce_sessions: Total expected rows (approximate): 11
+0028.656 (0) Table tmg1h9h024woocommerce_sessions: Total rows added: 11 in 0.00 seconds
+0028.658 (0) Table tmg1h9h024woocommerce_sessions: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_sessions.table.gz - 1.5 KB)
+0028.665 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0028.669 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0028.671 (0) Table tmg1h9h024woocommerce_shipping_zone_locations: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0028.679 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0028.681 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0028.683 (0) Table tmg1h9h024woocommerce_shipping_zone_methods: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0028.690 (0) Table tmg1h9h024woocommerce_shipping_zones: Total expected rows (approximate): 0
+0028.692 (0) Table tmg1h9h024woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0028.693 (0) Table tmg1h9h024woocommerce_shipping_zones: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zones.table.gz - 0.3 KB)
+0028.699 (0) Table tmg1h9h024woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0028.702 (0) Table tmg1h9h024woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0028.703 (0) Table tmg1h9h024woocommerce_tax_rate_locations: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0028.709 (0) Table tmg1h9h024woocommerce_tax_rates: Total expected rows (approximate): 0
+0028.711 (0) Table tmg1h9h024woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0028.712 (0) Table tmg1h9h024woocommerce_tax_rates: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_tax_rates.table.gz - 0.4 KB)
+0028.718 (0) Table tmg1h9h024wpforms_tasks_meta: Total expected rows (approximate): 1
+0028.723 (0) Table tmg1h9h024wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0028.725 (0) Table tmg1h9h024wpforms_tasks_meta: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wpforms_tasks_meta.table.gz - 0.4 KB)
+0028.731 (0) Table tmg1h9h024wsluserscontacts: Total expected rows (approximate): 0
+0028.734 (0) Table tmg1h9h024wsluserscontacts: Total rows added: 0 in 0.00 seconds
+0028.735 (0) Table tmg1h9h024wsluserscontacts: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wsluserscontacts.table.gz - 0.4 KB)
+0028.740 (0) Table tmg1h9h024wslusersprofiles: Total expected rows (approximate): 0
+0028.742 (0) Table tmg1h9h024wslusersprofiles: Total rows added: 0 in 0.00 seconds
+0028.744 (0) Table tmg1h9h024wslusersprofiles: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wslusersprofiles.table.gz - 0.5 KB)
+0028.749 (0) Table tmg1h9h024yz_bookmark: Total expected rows (approximate): 1
+0028.752 (0) Table tmg1h9h024yz_bookmark: Total rows added: 1 in 0.00 seconds
+0028.753 (0) Table tmg1h9h024yz_bookmark: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_bookmark.table.gz - 0.4 KB)
+0028.759 (0) Table tmg1h9h024yz_hashtags: Total expected rows (approximate): 0
+0028.765 (0) Table tmg1h9h024yz_hashtags: Total rows added: 0 in 0.00 seconds
+0028.766 (0) Table tmg1h9h024yz_hashtags: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_hashtags.table.gz - 0.3 KB)
+0028.772 (0) Table tmg1h9h024yz_hashtags_items: Total expected rows (approximate): 0
+0028.775 (0) Table tmg1h9h024yz_hashtags_items: Total rows added: 0 in 0.00 seconds
+0028.776 (0) Table tmg1h9h024yz_hashtags_items: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_hashtags_items.table.gz - 0.4 KB)
+0028.781 (0) Table tmg1h9h024yz_media: Total expected rows (approximate): 7
+0028.786 (0) Table tmg1h9h024yz_media: Total rows added: 7 in 0.00 seconds
+0028.788 (0) Table tmg1h9h024yz_media: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_media.table.gz - 1 KB)
+0028.794 (0) Table tmg1h9h024yz_reviews: Total expected rows (approximate): 18
+0028.799 (0) Table tmg1h9h024yz_reviews: Total rows added: 18 in 0.00 seconds
+0028.802 (0) Table tmg1h9h024yz_reviews: finishing file (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_reviews.table.gz - 1.6 KB)
+0028.805 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024options.table.gz (1/88): adding to final database dump
+0028.873 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024users.table.gz (2/88): adding to final database dump
+0028.876 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024usermeta.table.gz (3/88): adding to final database dump
+0028.879 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_actions.table.gz (4/88): adding to final database dump
+0028.882 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_claims.table.gz (5/88): adding to final database dump
+0028.883 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_groups.table.gz (6/88): adding to final database dump
+0028.885 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024actionscheduler_logs.table.gz (7/88): adding to final database dump
+0028.887 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024commentmeta.table.gz (8/88): adding to final database dump
+0028.888 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024comments.table.gz (9/88): adding to final database dump
+0028.889 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024links.table.gz (10/88): adding to final database dump
+0028.891 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024postmeta.table.gz (11/88): adding to final database dump
+0028.933 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024posts.table.gz (12/88): adding to final database dump
+0028.962 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024signups.table.gz (13/88): adding to final database dump
+0028.964 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024statify.table.gz (14/88): adding to final database dump
+0028.966 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024term_relationships.table.gz (15/88): adding to final database dump
+0028.967 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024term_taxonomy.table.gz (16/88): adding to final database dump
+0028.969 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024termmeta.table.gz (17/88): adding to final database dump
+0028.970 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024terms.table.gz (18/88): adding to final database dump
+0028.971 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_category_lookup.table.gz (19/88): adding to final database dump
+0028.972 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_product_meta_lookup.table.gz (20/88): adding to final database dump
+0028.974 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_tax_rate_classes.table.gz (21/88): adding to final database dump
+0028.975 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_order_itemmeta.table.gz (22/88): adding to final database dump
+0028.977 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_payment_tokenmeta.table.gz (23/88): adding to final database dump
+0028.979 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024arete_buddypress_smileys_manage.table.gz (24/88): adding to final database dump
+0028.980 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_filters.table.gz (25/88): adding to final database dump
+0028.981 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_instances.table.gz (26/88): adding to final database dump
+0028.983 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_links.table.gz (27/88): adding to final database dump
+0028.984 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024blc_synch.table.gz (28/88): adding to final database dump
+0028.986 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_activity.table.gz (29/88): adding to final database dump
+0028.988 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_activity_meta.table.gz (30/88): adding to final database dump
+0028.989 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_friends.table.gz (31/88): adding to final database dump
+0028.990 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups.table.gz (32/88): adding to final database dump
+0028.991 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups_groupmeta.table.gz (33/88): adding to final database dump
+0028.993 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_groups_members.table.gz (34/88): adding to final database dump
+0028.995 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_invitations.table.gz (35/88): adding to final database dump
+0028.996 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_messages.table.gz (36/88): adding to final database dump
+0028.997 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_meta.table.gz (37/88): adding to final database dump
+0028.998 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_notices.table.gz (38/88): adding to final database dump
+0028.999 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_messages_recipients.table.gz (39/88): adding to final database dump
+0029.001 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_notifications.table.gz (40/88): adding to final database dump
+0029.002 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_notifications_meta.table.gz (41/88): adding to final database dump
+0029.004 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_data.table.gz (42/88): adding to final database dump
+0029.005 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_fields.table.gz (43/88): adding to final database dump
+0029.007 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_groups.table.gz (44/88): adding to final database dump
+0029.008 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024bp_xprofile_meta.table.gz (45/88): adding to final database dump
+0029.010 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024brizy_logs.table.gz (46/88): adding to final database dump
+0029.051 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024logy_users.table.gz (47/88): adding to final database dump
+0029.053 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024mycred_log.table.gz (48/88): adding to final database dump
+0029.054 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_activity.table.gz (49/88): adding to final database dump
+0029.056 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_api.table.gz (50/88): adding to final database dump
+0029.057 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media.table.gz (51/88): adding to final database dump
+0029.059 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media_interaction.table.gz (52/88): adding to final database dump
+0029.061 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024rt_rtm_media_meta.table.gz (53/88): adding to final database dump
+0029.062 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024social_users.table.gz (54/88): adding to final database dump
+0029.063 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_dictionary_fr_fr_en_gb.table.gz (55/88): adding to final database dump
+0029.065 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_gettext_en_gb.table.gz (56/88): adding to final database dump
+0029.068 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_gettext_fr_fr.table.gz (57/88): adding to final database dump
+0029.096 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_original_meta.table.gz (58/88): adding to final database dump
+0029.098 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024trp_original_strings.table.gz (59/88): adding to final database dump
+0029.101 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_admin_note_actions.table.gz (60/88): adding to final database dump
+0029.102 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_admin_notes.table.gz (61/88): adding to final database dump
+0029.103 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_customer_lookup.table.gz (62/88): adding to final database dump
+0029.105 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_download_log.table.gz (63/88): adding to final database dump
+0029.106 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_coupon_lookup.table.gz (64/88): adding to final database dump
+0029.107 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_product_lookup.table.gz (65/88): adding to final database dump
+0029.109 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_stats.table.gz (66/88): adding to final database dump
+0029.110 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_order_tax_lookup.table.gz (67/88): adding to final database dump
+0029.111 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wc_webhooks.table.gz (68/88): adding to final database dump
+0029.112 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_api_keys.table.gz (69/88): adding to final database dump
+0029.113 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_attribute_taxonomies.table.gz (70/88): adding to final database dump
+0029.114 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_downloadable_product_permissions.table.gz (71/88): adding to final database dump
+0029.115 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_log.table.gz (72/88): adding to final database dump
+0029.117 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_order_items.table.gz (73/88): adding to final database dump
+0029.118 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_payment_tokens.table.gz (74/88): adding to final database dump
+0029.119 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_sessions.table.gz (75/88): adding to final database dump
+0029.122 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zone_locations.table.gz (76/88): adding to final database dump
+0029.123 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zone_methods.table.gz (77/88): adding to final database dump
+0029.124 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_shipping_zones.table.gz (78/88): adding to final database dump
+0029.125 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_tax_rate_locations.table.gz (79/88): adding to final database dump
+0029.127 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024woocommerce_tax_rates.table.gz (80/88): adding to final database dump
+0029.128 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wpforms_tasks_meta.table.gz (81/88): adding to final database dump
+0029.130 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wsluserscontacts.table.gz (82/88): adding to final database dump
+0029.131 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024wslusersprofiles.table.gz (83/88): adding to final database dump
+0029.133 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_bookmark.table.gz (84/88): adding to final database dump
+0029.134 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_hashtags.table.gz (85/88): adding to final database dump
+0029.135 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_hashtags_items.table.gz (86/88): adding to final database dump
+0029.137 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_media.table.gz (87/88): adding to final database dump
+0029.139 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db-table-tmg1h9h024yz_reviews.table.gz (88/88): adding to final database dump
+0029.141 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: finished writing out complete database file (760 KB)
+0029.160 (0) Total database tables backed up: 88 (backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz, size: 781385, sha1: 71e0f188ab9f09bf54a680696abdfe0555c584a7, sha256: 8e84474e230146ed146e5bad91429275368321904ca9e5dba73f3c53faf30d5f)
+0029.171 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.172 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0029.173 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0029.175 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0029.176 (0) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.177 (0) Saving backup history. Total backup size: 249.8 MB
+0029.182 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0029.187 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0029.188 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-44a8a6bbf8c86e20ff9f8d150cde4981)
+0031.715 (0) Google Drive: quota usage: used=1952.7 MB, total=15360 MB, available=13407.3 MB
+0031.716 (0) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0032.134 (0) Googledrive chunked upload: 1.4 % uploaded (1048576)
+0032.287 (0) Googledrive chunked upload: 2.8 % uploaded (2097152)
+0032.412 (0) Googledrive chunked upload: 4.3 % uploaded (3145728)
+0032.555 (0) Googledrive chunked upload: 5.7 % uploaded (4194304)
+0032.682 (0) Googledrive chunked upload: 7.1 % uploaded (5242880)
+0032.808 (0) Googledrive chunked upload: 8.5 % uploaded (6291456)
+0032.934 (0) Googledrive chunked upload: 9.9 % uploaded (7340032)
+0033.155 (0) Googledrive chunked upload: 11.4 % uploaded (8388608)
+0033.298 (0) Googledrive chunked upload: 12.8 % uploaded (9437184)
+0033.421 (0) Googledrive chunked upload: 14.2 % uploaded (10485760)
+0033.579 (0) Googledrive chunked upload: 15.6 % uploaded (11534336)
+0033.706 (0) Googledrive chunked upload: 17 % uploaded (12582912)
+0033.832 (0) Googledrive chunked upload: 18.4 % uploaded (13631488)
+0034.073 (0) Googledrive chunked upload: 19.9 % uploaded (14680064)
+0034.239 (0) Googledrive chunked upload: 21.3 % uploaded (15728640)
+0034.379 (0) Googledrive chunked upload: 22.7 % uploaded (16777216)
+0034.527 (0) Googledrive chunked upload: 24.1 % uploaded (17825792)
+0034.660 (0) Googledrive chunked upload: 25.5 % uploaded (18874368)
+0034.837 (0) Googledrive chunked upload: 27 % uploaded (19922944)
+0034.967 (0) Googledrive chunked upload: 28.4 % uploaded (20971520)
+0035.104 (0) Googledrive chunked upload: 29.8 % uploaded (22020096)
+0035.300 (0) Googledrive chunked upload: 31.2 % uploaded (23068672)
+0035.440 (0) Googledrive chunked upload: 32.6 % uploaded (24117248)
+0035.616 (0) Googledrive chunked upload: 34.1 % uploaded (25165824)
+0035.746 (0) Googledrive chunked upload: 35.5 % uploaded (26214400)
+0035.865 (0) Googledrive chunked upload: 36.9 % uploaded (27262976)
+0036.090 (0) Googledrive chunked upload: 38.3 % uploaded (28311552)
+0036.217 (0) Googledrive chunked upload: 39.7 % uploaded (29360128)
+0036.346 (0) Googledrive chunked upload: 41.2 % uploaded (30408704)
+0036.503 (0) Googledrive chunked upload: 42.6 % uploaded (31457280)
+0036.638 (0) Googledrive chunked upload: 44 % uploaded (32505856)
+0036.774 (0) Googledrive chunked upload: 45.4 % uploaded (33554432)
+0036.909 (0) Googledrive chunked upload: 46.8 % uploaded (34603008)
+0037.038 (0) Googledrive chunked upload: 48.2 % uploaded (35651584)
+0037.167 (0) Googledrive chunked upload: 49.7 % uploaded (36700160)
+0037.388 (0) Googledrive chunked upload: 51.1 % uploaded (37748736)
+0037.506 (0) Googledrive chunked upload: 52.5 % uploaded (38797312)
+0037.630 (0) Googledrive chunked upload: 53.9 % uploaded (39845888)
+0037.769 (0) Googledrive chunked upload: 55.3 % uploaded (40894464)
+0037.905 (0) Googledrive chunked upload: 56.8 % uploaded (41943040)
+0038.114 (0) Googledrive chunked upload: 58.2 % uploaded (42991616)
+0038.257 (0) Googledrive chunked upload: 59.6 % uploaded (44040192)
+0038.380 (0) Googledrive chunked upload: 61 % uploaded (45088768)
+0038.505 (0) Googledrive chunked upload: 62.4 % uploaded (46137344)
+0038.632 (0) Googledrive chunked upload: 63.9 % uploaded (47185920)
+0038.802 (0) Googledrive chunked upload: 65.3 % uploaded (48234496)
+0038.919 (0) Googledrive chunked upload: 66.7 % uploaded (49283072)
+0039.045 (0) Googledrive chunked upload: 68.1 % uploaded (50331648)
+0039.178 (0) Googledrive chunked upload: 69.5 % uploaded (51380224)
+0039.494 (0) Googledrive chunked upload: 71 % uploaded (52428800)
+0039.625 (0) Googledrive chunked upload: 72.4 % uploaded (53477376)
+0039.769 (0) Googledrive chunked upload: 73.8 % uploaded (54525952)
+0039.912 (0) Googledrive chunked upload: 75.2 % uploaded (55574528)
+0040.064 (0) Googledrive chunked upload: 76.6 % uploaded (56623104)
+0040.191 (0) Googledrive chunked upload: 78 % uploaded (57671680)
+0040.372 (0) Googledrive chunked upload: 79.5 % uploaded (58720256)
+0040.501 (0) Googledrive chunked upload: 80.9 % uploaded (59768832)
+0040.642 (0) Googledrive chunked upload: 82.3 % uploaded (60817408)
+0040.769 (0) Googledrive chunked upload: 83.7 % uploaded (61865984)
+0040.944 (0) Googledrive chunked upload: 85.1 % uploaded (62914560)
+0041.108 (0) Googledrive chunked upload: 86.6 % uploaded (63963136)
+0041.234 (0) Googledrive chunked upload: 88 % uploaded (65011712)
+0041.370 (0) Googledrive chunked upload: 89.4 % uploaded (66060288)
+0041.501 (0) Googledrive chunked upload: 90.8 % uploaded (67108864)
+0041.659 (0) Googledrive chunked upload: 92.2 % uploaded (68157440)
+0041.796 (0) Googledrive chunked upload: 93.7 % uploaded (69206016)
+0041.917 (0) Googledrive chunked upload: 95.1 % uploaded (70254592)
+0042.082 (0) Googledrive chunked upload: 96.5 % uploaded (71303168)
+0042.217 (0) Googledrive chunked upload: 97.9 % uploaded (72351744)
+0042.356 (0) Googledrive chunked upload: 99.3 % uploaded (73400320)
+0043.637 (0) Googledrive chunked upload: 100 % uploaded (73400320)
+0043.641 (0) Google Drive: OK: Archive backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip uploaded in 11.92 seconds
+0043.642 (0) Recording as successfully uploaded: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip
+0043.645 (0) Deleting local file: backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip: OK
+0043.923 (0) Google Drive: quota usage: used=1952.7 MB, total=15360 MB, available=13407.3 MB
+0043.925 (0) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0044.386 (0) Googledrive chunked upload: 9.5 % uploaded (1048576)
+0044.497 (0) Googledrive chunked upload: 18.9 % uploaded (2097152)
+0044.626 (0) Googledrive chunked upload: 28.4 % uploaded (3145728)
+0044.767 (0) Googledrive chunked upload: 37.9 % uploaded (4194304)
+0044.896 (0) Googledrive chunked upload: 47.4 % uploaded (5242880)
+0045.028 (0) Googledrive chunked upload: 56.8 % uploaded (6291456)
+0045.174 (0) Googledrive chunked upload: 66.3 % uploaded (7340032)
+0045.301 (0) Googledrive chunked upload: 75.8 % uploaded (8388608)
+0045.436 (0) Googledrive chunked upload: 85.3 % uploaded (9437184)
+0045.552 (0) Googledrive chunked upload: 94.7 % uploaded (10485760)
+0046.462 (0) Googledrive chunked upload: 100 % uploaded (10485760)
+0046.468 (0) Google Drive: OK: Archive backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip uploaded in 2.54 seconds
+0046.469 (0) Recording as successfully uploaded: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip
+0046.472 (0) Deleting local file: backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip: OK
+0046.621 (0) Google Drive: quota usage: failed to obtain this information: Error calling GET https://www.googleapis.com/drive/v2/about: (403) Rate Limit Exceeded
+0046.624 (0) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0046.679 (0) Google Drive: Upload error: Failed to start the resumable upload (HTTP 403: usageLimits, Rate Limit Exceeded) (line: 321, file: /homepages/8/d817576993/htdocs/app817638129/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0046.681 (0) An error condition has occurred for the first time during this job
+0046.827 (0) Google Drive: quota usage: failed to obtain this information: Error calling GET https://www.googleapis.com/drive/v2/about: (403) Rate Limit Exceeded
+0046.828 (0) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0046.909 (0) Google Drive: Upload error: Failed to start the resumable upload (HTTP 403: usageLimits, Rate Limit Exceeded) (line: 321, file: /homepages/8/d817576993/htdocs/app817638129/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0047.062 (0) Google Drive: quota usage: failed to obtain this information: Error calling GET https://www.googleapis.com/drive/v2/about: (403) Rate Limit Exceeded
+0047.063 (0) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0047.122 (0) Google Drive: Upload error: Failed to start the resumable upload (HTTP 403: usageLimits, Rate Limit Exceeded) (line: 321, file: /homepages/8/d817576993/htdocs/app817638129/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0047.125 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=20, retain_db=20
+0047.127 (0) Number of backup sets in history: 8; groups (db): 1
+0047.128 (0) Examining (for databases) backup set with group_id=0, nonce=e3332acbca1e, datestamp=1585872432 (Apr 03 2020 00:07:12)
+0047.130 (0) This backup set is the backup set just made, so will not be deleted.
+0047.130 (0) Examining (for databases) backup set with group_id=0, nonce=5c7c76e5b7f0, datestamp=1585866924 (Apr 02 2020 22:35:24)
+0047.130 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=2e7cbe88fe02, datestamp=1585856946 (Apr 02 2020 19:49:06)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=495c99f348a5, datestamp=1585849146 (Apr 02 2020 17:39:06)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=9bc36f675e09, datestamp=1585847602 (Apr 02 2020 17:13:22)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=598527d7a6a2, datestamp=1585847199 (Apr 02 2020 17:06:39)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=677df90d4488, datestamp=1585841907 (Apr 02 2020 15:38:27)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Examining (for databases) backup set with group_id=0, nonce=28c586c5b708, datestamp=1585835263 (Apr 02 2020 13:47:43)
+0047.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.131 (0) Number of backup sets in history: 8; groups (files): 1
+0047.132 (0) Examining (for files) backup set with nonce=e3332acbca1e, datestamp=1585872432 (Apr 03 2020 00:07:12)
+0047.132 (0) This backup set is the backup set just made, so will not be deleted.
+0047.133 (0) This backup set is the backup set just made, so will not be deleted.
+0047.133 (0) This backup set is the backup set just made, so will not be deleted.
+0047.133 (0) This backup set is the backup set just made, so will not be deleted.
+0047.133 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=5c7c76e5b7f0, datestamp=1585866924 (Apr 02 2020 22:35:24)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=2e7cbe88fe02, datestamp=1585856946 (Apr 02 2020 19:49:06)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=495c99f348a5, datestamp=1585849146 (Apr 02 2020 17:39:06)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=9bc36f675e09, datestamp=1585847602 (Apr 02 2020 17:13:22)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=598527d7a6a2, datestamp=1585847199 (Apr 02 2020 17:06:39)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=677df90d4488, datestamp=1585841907 (Apr 02 2020 15:38:27)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Examining (for files) backup set with nonce=28c586c5b708, datestamp=1585835263 (Apr 02 2020 13:47:43)
+0047.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.134 (0) Retain: saving new backup history (sets now: 8) and finishing retain operation
+0047.138 (0) Resume backup (e3332acbca1e, 0): finish run
+0047.142 (0) Decremented the semaphore (fd) by 1
+0047.144 (0) Semaphore (fd) unlocked
+0047.145 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0047.151 (0) Rescheduling resumption 1: moving to 100 seconds from now (1585872579)
+0047.154 (0) No email will/can be sent - the user has not configured an email address.
+0047.155 (0) The backup has not finished; a resumption is scheduled
+0225.024 (1) Opened log file at time: Fri, 03 Apr 2020 00:10:57 +0000 on https://bojelo.com
+0225.026 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 115.8M | 120M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0225.027 (1) Free space on disk containing Updraft's temporary directory: 1442014.3 MB
+0225.029 (1) Backup run: resumption=1, nonce=e3332acbca1e, file_nonce=e3332acbca1e begun at=1585872432 (225s ago), job type=backup, previous check-in=46.5s
+0225.032 (1) Scheduling a resumption (2) after 300 seconds (1585872957) in case this run gets aborted
+0225.036 (1) Checking if we have a zip executable available
+0225.037 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0225.038 (1) Creation of backups of directories: already finished
+0225.040 (1) Saving backup status to database (elements: 8)
+0225.044 (1) Database dump (WordPress DB): Creation was completed already
+0225.053 (1) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip: plugins: This file has already been successfully uploaded
+0225.054 (1) backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip: themes: This file has already been successfully uploaded
+0225.055 (1) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0225.056 (1) backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0225.056 (1) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0225.057 (1) Saving backup history. Total backup size: 249.8 MB
+0225.061 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0225.064 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0225.065 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-44a8a6bbf8c86e20ff9f8d150cde4981)
+0225.835 (1) Google Drive: quota usage: used=2033.8 MB, total=15360 MB, available=13326.2 MB
+0225.836 (1) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0226.318 (1) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0226.431 (1) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0226.554 (1) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0226.704 (1) Googledrive chunked upload: 6.8 % uploaded (4194304)
+0226.835 (1) Googledrive chunked upload: 8.5 % uploaded (5242880)
+0226.965 (1) Googledrive chunked upload: 10.2 % uploaded (6291456)
+0227.118 (1) Googledrive chunked upload: 11.9 % uploaded (7340032)
+0227.246 (1) Googledrive chunked upload: 13.6 % uploaded (8388608)
+0227.389 (1) Googledrive chunked upload: 15.3 % uploaded (9437184)
+0227.517 (1) Googledrive chunked upload: 17 % uploaded (10485760)
+0227.752 (1) Googledrive chunked upload: 18.7 % uploaded (11534336)
+0227.876 (1) Googledrive chunked upload: 20.4 % uploaded (12582912)
+0228.011 (1) Googledrive chunked upload: 22.1 % uploaded (13631488)
+0228.151 (1) Googledrive chunked upload: 23.8 % uploaded (14680064)
+0228.270 (1) Googledrive chunked upload: 25.6 % uploaded (15728640)
+0228.402 (1) Googledrive chunked upload: 27.3 % uploaded (16777216)
+0228.520 (1) Googledrive chunked upload: 29 % uploaded (17825792)
+0228.645 (1) Googledrive chunked upload: 30.7 % uploaded (18874368)
+0228.773 (1) Googledrive chunked upload: 32.4 % uploaded (19922944)
+0228.882 (1) Googledrive chunked upload: 34.1 % uploaded (20971520)
+0229.034 (1) Googledrive chunked upload: 35.8 % uploaded (22020096)
+0229.169 (1) Googledrive chunked upload: 37.5 % uploaded (23068672)
+0229.300 (1) Googledrive chunked upload: 39.2 % uploaded (24117248)
+0229.461 (1) Googledrive chunked upload: 40.9 % uploaded (25165824)
+0229.599 (1) Googledrive chunked upload: 42.6 % uploaded (26214400)
+0229.742 (1) Googledrive chunked upload: 44.3 % uploaded (27262976)
+0229.869 (1) Googledrive chunked upload: 46 % uploaded (28311552)
+0230.016 (1) Googledrive chunked upload: 47.7 % uploaded (29360128)
+0230.220 (1) Googledrive chunked upload: 49.4 % uploaded (30408704)
+0230.348 (1) Googledrive chunked upload: 51.1 % uploaded (31457280)
+0230.469 (1) Googledrive chunked upload: 52.8 % uploaded (32505856)
+0230.626 (1) Googledrive chunked upload: 54.5 % uploaded (33554432)
+0230.763 (1) Googledrive chunked upload: 56.2 % uploaded (34603008)
+0230.941 (1) Googledrive chunked upload: 57.9 % uploaded (35651584)
+0231.077 (1) Googledrive chunked upload: 59.6 % uploaded (36700160)
+0231.252 (1) Googledrive chunked upload: 61.3 % uploaded (37748736)
+0231.376 (1) Googledrive chunked upload: 63 % uploaded (38797312)
+0231.526 (1) Googledrive chunked upload: 64.7 % uploaded (39845888)
+0231.657 (1) Googledrive chunked upload: 66.4 % uploaded (40894464)
+0231.779 (1) Googledrive chunked upload: 68.1 % uploaded (41943040)
+0231.899 (1) Googledrive chunked upload: 69.8 % uploaded (42991616)
+0232.097 (1) Googledrive chunked upload: 71.5 % uploaded (44040192)
+0232.285 (1) Googledrive chunked upload: 73.3 % uploaded (45088768)
+0232.461 (1) Googledrive chunked upload: 75 % uploaded (46137344)
+0232.610 (1) Googledrive chunked upload: 76.7 % uploaded (47185920)
+0232.765 (1) Googledrive chunked upload: 78.4 % uploaded (48234496)
+0232.909 (1) Googledrive chunked upload: 80.1 % uploaded (49283072)
+0233.034 (1) Googledrive chunked upload: 81.8 % uploaded (50331648)
+0233.174 (1) Googledrive chunked upload: 83.5 % uploaded (51380224)
+0233.353 (1) Googledrive chunked upload: 85.2 % uploaded (52428800)
+0233.476 (1) Googledrive chunked upload: 86.9 % uploaded (53477376)
+0233.632 (1) Googledrive chunked upload: 88.6 % uploaded (54525952)
+0233.762 (1) Googledrive chunked upload: 90.3 % uploaded (55574528)
+0233.898 (1) Googledrive chunked upload: 92 % uploaded (56623104)
+0234.030 (1) Googledrive chunked upload: 93.7 % uploaded (57671680)
+0234.175 (1) Googledrive chunked upload: 95.4 % uploaded (58720256)
+0234.338 (1) Googledrive chunked upload: 97.1 % uploaded (59768832)
+0234.583 (1) Googledrive chunked upload: 98.8 % uploaded (60817408)
+0235.585 (1) Googledrive chunked upload: 100 % uploaded (60817408)
+0235.591 (1) Google Drive: OK: Archive backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip uploaded in 9.75 seconds
+0235.592 (1) Recording as successfully uploaded: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip
+0235.596 (1) Deleting local file: backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: OK
+0235.743 (1) Google Drive: quota usage: failed to obtain this information: Error calling GET https://www.googleapis.com/drive/v2/about: (403) Rate Limit Exceeded
+0235.745 (1) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0235.799 (1) Google Drive: Upload error: Failed to start the resumable upload (HTTP 403: usageLimits, Rate Limit Exceeded) (line: 321, file: /homepages/8/d817576993/htdocs/app817638129/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0235.801 (1) An error condition has occurred for the first time during this job
+0235.954 (1) Google Drive: quota usage: failed to obtain this information: Error calling GET https://www.googleapis.com/drive/v2/about: (403) Rate Limit Exceeded
+0235.955 (1) Google Drive: backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: Attempting to upload to Google Drive (into folder id: 1-MLx971KxWOzvYPSnK6uMhRnWQLaLZk7)
+0237.126 (1) Googledrive chunked upload: 100 % uploaded
+0237.135 (1) Google Drive: OK: Archive backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz uploaded in 1.18 seconds
+0237.140 (1) Recording as successfully uploaded: backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz
+0237.147 (1) Deleting local file: backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: OK
+0237.156 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=20, retain_db=20
+0237.163 (1) Number of backup sets in history: 8; groups (db): 1
+0237.167 (1) Examining (for databases) backup set with group_id=0, nonce=e3332acbca1e, datestamp=1585872432 (Apr 03 2020 00:07:12)
+0237.171 (1) This backup set is the backup set just made, so will not be deleted.
+0237.171 (1) Examining (for databases) backup set with group_id=0, nonce=5c7c76e5b7f0, datestamp=1585866924 (Apr 02 2020 22:35:24)
+0237.171 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=2e7cbe88fe02, datestamp=1585856946 (Apr 02 2020 19:49:06)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=495c99f348a5, datestamp=1585849146 (Apr 02 2020 17:39:06)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=9bc36f675e09, datestamp=1585847602 (Apr 02 2020 17:13:22)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=598527d7a6a2, datestamp=1585847199 (Apr 02 2020 17:06:39)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=677df90d4488, datestamp=1585841907 (Apr 02 2020 15:38:27)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.176 (1) Examining (for databases) backup set with group_id=0, nonce=28c586c5b708, datestamp=1585835263 (Apr 02 2020 13:47:43)
+0237.176 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.177 (1) Number of backup sets in history: 8; groups (files): 1
+0237.179 (1) Examining (for files) backup set with nonce=e3332acbca1e, datestamp=1585872432 (Apr 03 2020 00:07:12)
+0237.179 (1) This backup set is the backup set just made, so will not be deleted.
+0237.181 (1) This backup set is the backup set just made, so will not be deleted.
+0237.181 (1) This backup set is the backup set just made, so will not be deleted.
+0237.181 (1) This backup set is the backup set just made, so will not be deleted.
+0237.181 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=5c7c76e5b7f0, datestamp=1585866924 (Apr 02 2020 22:35:24)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=2e7cbe88fe02, datestamp=1585856946 (Apr 02 2020 19:49:06)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=495c99f348a5, datestamp=1585849146 (Apr 02 2020 17:39:06)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=9bc36f675e09, datestamp=1585847602 (Apr 02 2020 17:13:22)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=598527d7a6a2, datestamp=1585847199 (Apr 02 2020 17:06:39)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=677df90d4488, datestamp=1585841907 (Apr 02 2020 15:38:27)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Examining (for files) backup set with nonce=28c586c5b708, datestamp=1585835263 (Apr 02 2020 13:47:43)
+0237.184 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0237.184 (1) Retain: saving new backup history (sets now: 8) and finishing retain operation
+0237.200 (1) Resume backup (e3332acbca1e, 1): finish run
+0237.207 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0237.215 (1) No email will/can be sent - the user has not configured an email address.
+0237.217 (1) The backup has not finished; a resumption is scheduled
+0974.675 (2) Opened log file at time: Fri, 03 Apr 2020 00:23:27 +0000 on https://bojelo.com
+0974.676 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 115.8M | 120M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0974.677 (2) Free space on disk containing Updraft's temporary directory: 1442102.6 MB
+0974.680 (2) Backup run: resumption=2, nonce=e3332acbca1e, file_nonce=e3332acbca1e begun at=1585872432 (975s ago), job type=backup, previous check-in=12.1s
+0974.682 (2) Scheduling a resumption (3) after 300 seconds (1585873707) in case this run gets aborted
+0974.687 (2) Checking if we have a zip executable available
+0974.688 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0974.697 (2) Creation of backups of directories: already finished
+0974.698 (2) Saving backup status to database (elements: 8)
+0974.704 (2) Database dump (WordPress DB): Creation was completed already
+0974.710 (2) backup_2020-04-03-0207_Bojelo_e3332acbca1e-plugins.zip: plugins: This file has already been successfully uploaded
+0974.712 (2) backup_2020-04-03-0207_Bojelo_e3332acbca1e-themes.zip: themes: This file has already been successfully uploaded
+0974.713 (2) backup_2020-04-03-0207_Bojelo_e3332acbca1e-uploads.zip: uploads: This file has already been successfully uploaded
+0974.714 (2) backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/homepages/8/d817576993/htdocs/app817638129/wp-content/updraft/backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip)
+0974.715 (2) Recording as successfully uploaded: backup_2020-04-03-0207_Bojelo_e3332acbca1e-others.zip
+0974.718 (2) backup_2020-04-03-0207_Bojelo_e3332acbca1e-db.gz: db: This file has already been successfully uploaded
+0974.718 (2) Saving backup history. Total backup size: Unknown
+0974.723 (2) Resume backup (e3332acbca1e, 2): finish run
+0974.725 (2) There were no more files that needed uploading
+0974.726 (2) PHP event: code E_NOTICE: Undefined index: googledrive (line 3775, wp-content/plugins/updraftplus/class-updraftplus.php)
+0974.728 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0974.732 (2) No email will be sent - this backup set was empty.
+0974.733 (2) The backup apparently succeeded and is now complete

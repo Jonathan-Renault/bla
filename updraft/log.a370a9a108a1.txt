@@ -1,0 +1,185 @@
+0000.005 () Opened log file at time: Thu, 16 Apr 2020 08:32:05 +0000 on https://bojelo.com
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 124.9M | 128M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 1405694.4 MB
+0000.005 () Opened log file at time: Thu, 16 Apr 2020 08:32:10 +0000 on https://bojelo.com
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.16 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.60-0+deb7u1-log WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 805306368 (used: 126.9M | 130M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 1405693.4 MB
+0000.009 () Ensuring WP_Filesystem is setup for a restore
+0000.009 () WP_Filesystem is setup and ready for a restore
+0000.022 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restore_table_options":["tmg1h9h024options","tmg1h9h024users","tmg1h9h024usermeta","tmg1h9h024actionscheduler_actions","tmg1h9h024actionscheduler_claims","tmg1h9h024actionscheduler_groups","tmg1h9h024actionscheduler_logs","tmg1h9h024commentmeta","tmg1h9h024comments","tmg1h9h024links","tmg1h9h024postmeta","tmg1h9h024posts","tmg1h9h024signups","tmg1h9h024term_relationships","tmg1h9h024term_taxonomy","tmg1h9h024termmeta","tmg1h9h024terms","tmg1h9h024wc_category_lookup","tmg1h9h024wc_product_meta_lookup","tmg1h9h024wc_tax_rate_classes","tmg1h9h024woocommerce_order_itemmeta","tmg1h9h024woocommerce_payment_tokenmeta","tmg1h9h024aff_affiliates","tmg1h9h024aff_affiliates_users","tmg1h9h024aff_hits","tmg1h9h024aff_referral_items","tmg1h9h024aff_referrals","tmg1h9h024aff_robots","tmg1h9h024aff_uris","tmg1h9h024aff_user_agents","tmg1h9h024arete_buddypress_smileys_manage","tmg1h9h024bp_activity","tmg1h9h024bp_activity_meta","tmg1h9h024bp_friends","tmg1h9h024bp_groups","tmg1h9h024bp_groups_groupmeta","tmg1h9h024bp_groups_members","tmg1h9h024bp_invitations","tmg1h9h024bp_messages_messages","tmg1h9h024bp_messages_meta","tmg1h9h024bp_messages_notices","tmg1h9h024bp_messages_recipients","tmg1h9h024bp_notifications","tmg1h9h024bp_notifications_meta","tmg1h9h024bp_xprofile_data","tmg1h9h024bp_xprofile_fields","tmg1h9h024bp_xprofile_groups","tmg1h9h024bp_xprofile_meta","tmg1h9h024brizy_logs","tmg1h9h024logy_users","tmg1h9h024mo_openid_linked_user","tmg1h9h024mycred_log","tmg1h9h024rt_rtm_activity","tmg1h9h024rt_rtm_api","tmg1h9h024rt_rtm_media","tmg1h9h024rt_rtm_media_interaction","tmg1h9h024rt_rtm_media_meta","tmg1h9h024social_users","tmg1h9h024trp_dictionary_fr_fr_en_gb","tmg1h9h024trp_gettext_en_gb","tmg1h9h024trp_gettext_fr_fr","tmg1h9h024trp_original_meta","tmg1h9h024trp_original_strings","tmg1h9h024wc_admin_note_actions","tmg1h9h024wc_admin_notes","tmg1h9h024wc_customer_lookup","tmg1h9h024wc_download_log","tmg1h9h024wc_order_coupon_lookup","tmg1h9h024wc_order_product_lookup","tmg1h9h024wc_order_stats","tmg1h9h024wc_order_tax_lookup","tmg1h9h024wc_webhooks","tmg1h9h024woocommerce_api_keys","tmg1h9h024woocommerce_attribute_taxonomies","tmg1h9h024woocommerce_downloadable_product_permissions","tmg1h9h024woocommerce_log","tmg1h9h024woocommerce_order_items","tmg1h9h024woocommerce_payment_tokens","tmg1h9h024woocommerce_sessions","tmg1h9h024woocommerce_shipping_zone_locations","tmg1h9h024woocommerce_shipping_zone_methods","tmg1h9h024woocommerce_shipping_zones","tmg1h9h024woocommerce_tax_rate_locations","tmg1h9h024woocommerce_tax_rates","tmg1h9h024wpforms_tasks_meta","tmg1h9h024wprss_logs","tmg1h9h024wsluserscontacts","tmg1h9h024wslusersprofiles","tmg1h9h024yz_bookmark","tmg1h9h024yz_hashtags","tmg1h9h024yz_hashtags_items","tmg1h9h024yz_media","tmg1h9h024yz_reviews"],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.028 () Entity: db
+0000.028 () restore_backup(backup_file=backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-db.gz, type=db, info=a:0:{}, last_one=)
+0000.028 () Unpacking backup... (backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-db.gz, 1 Mb)
+0000.030 () Database successfully unpacked
+0000.030 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.030 () Using direct MySQL access; value of use_mysqli is: 1
+0000.034 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.656 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.657 () Max packet size: 16 MB
+0000.657 () Entering maintenance mode
+0000.657 () Activation du mode maintenance&#8230;
+0000.657 () Backup of: https://bojelo.com
+0000.659 () Content URL: https://bojelo.com/wp-content
+0000.659 () Uploads URL: https://bojelo.com/wp-content/uploads
+0000.659 () Old table prefix: tmg1h9h024
+0000.659 () Site information: multisite=0
+0000.662 () New table prefix: tmg1h9h024
+0000.886 () Processing table (InnoDB): tmg1h9h024options
+0001.399 () Restoring prior UD configuration (table: tmg1h9h024options; keys: 4)
+0001.647 () Processing table (MyISAM): tmg1h9h024users
+0001.669 () Processing table (MyISAM): tmg1h9h024usermeta
+0001.698 () Processing table (MyISAM): tmg1h9h024actionscheduler_actions
+0001.724 () Processing table (MyISAM): tmg1h9h024actionscheduler_claims
+0001.731 () Processing table (MyISAM): tmg1h9h024actionscheduler_groups
+0001.740 () Processing table (MyISAM): tmg1h9h024actionscheduler_logs
+0001.757 () Processing table (InnoDB): tmg1h9h024commentmeta
+0001.777 () Processing table (InnoDB): tmg1h9h024comments
+0001.798 () Processing table (InnoDB): tmg1h9h024links
+0002.028 () Processing table (InnoDB): tmg1h9h024postmeta
+0002.243 () Database queries processed: 50 in 1.59 seconds
+0002.541 () Processing table (InnoDB): tmg1h9h024posts
+0003.095 () Processing table (MyISAM): tmg1h9h024signups
+0003.107 () Processing table (InnoDB): tmg1h9h024term_relationships
+0003.122 () Processing table (InnoDB): tmg1h9h024term_taxonomy
+0003.144 () Processing table (InnoDB): tmg1h9h024termmeta
+0003.564 () Processing table (InnoDB): tmg1h9h024terms
+0003.581 () Processing table (MyISAM): tmg1h9h024wc_category_lookup
+0003.792 () Processing table (MyISAM): tmg1h9h024wc_product_meta_lookup
+0003.802 () Processing table (MyISAM): tmg1h9h024wc_tax_rate_classes
+0003.814 () Processing table (InnoDB): tmg1h9h024woocommerce_order_itemmeta
+0003.829 () Processing table (InnoDB): tmg1h9h024woocommerce_payment_tokenmeta
+0004.044 () Processing table (MyISAM): tmg1h9h024aff_affiliates
+0004.261 () Processing table (MyISAM): tmg1h9h024aff_affiliates_users
+0004.263 () Database queries processed: 100 in 3.61 seconds
+0004.267 () Processing table (MyISAM): tmg1h9h024aff_hits
+0004.483 () Processing table (MyISAM): tmg1h9h024aff_referral_items
+0004.491 () Processing table (MyISAM): tmg1h9h024aff_referrals
+0004.550 () Processing table (MyISAM): tmg1h9h024aff_robots
+0004.558 () Processing table (MyISAM): tmg1h9h024aff_uris
+0004.567 () Processing table (MyISAM): tmg1h9h024aff_user_agents
+0004.575 () Processing table (InnoDB): tmg1h9h024arete_buddypress_smileys_manage
+0004.592 () Processing table (InnoDB): tmg1h9h024bp_activity
+0004.628 () Processing table (InnoDB): tmg1h9h024bp_activity_meta
+0004.850 () Processing table (InnoDB): tmg1h9h024bp_friends
+0005.147 () Processing table (InnoDB): tmg1h9h024bp_groups
+0005.370 () Processing table (InnoDB): tmg1h9h024bp_groups_groupmeta
+0005.402 () Processing table (InnoDB): tmg1h9h024bp_groups_members
+0005.427 () Processing table (MyISAM): tmg1h9h024bp_invitations
+0005.441 () Processing table (InnoDB): tmg1h9h024bp_messages_messages
+0005.460 () Processing table (InnoDB): tmg1h9h024bp_messages_meta
+0005.477 () Processing table (InnoDB): tmg1h9h024bp_messages_notices
+0005.500 () Processing table (InnoDB): tmg1h9h024bp_messages_recipients
+0005.525 () Processing table (InnoDB): tmg1h9h024bp_notifications
+0005.773 () Processing table (InnoDB): tmg1h9h024bp_notifications_meta
+0005.782 () Database queries processed: 150 in 5.13 seconds
+0006.007 () Processing table (InnoDB): tmg1h9h024bp_xprofile_data
+0006.030 () Processing table (InnoDB): tmg1h9h024bp_xprofile_fields
+0006.479 () Processing table (InnoDB): tmg1h9h024bp_xprofile_groups
+0006.703 () Processing table (InnoDB): tmg1h9h024bp_xprofile_meta
+0006.722 () Processing table (MyISAM): tmg1h9h024brizy_logs
+0006.732 () Processing table (InnoDB): tmg1h9h024logy_users
+0006.945 () Processing table (MyISAM): tmg1h9h024mo_openid_linked_user
+0007.182 () Processing table (InnoDB): tmg1h9h024mycred_log
+0007.214 () Processing table (InnoDB): tmg1h9h024rt_rtm_activity
+0007.452 () Processing table (InnoDB): tmg1h9h024rt_rtm_api
+0007.467 () Processing table (InnoDB): tmg1h9h024rt_rtm_media
+0007.696 () Processing table (InnoDB): tmg1h9h024rt_rtm_media_interaction
+0007.718 () Processing table (InnoDB): tmg1h9h024rt_rtm_media_meta
+0007.943 () Processing table (MyISAM): tmg1h9h024social_users
+0007.954 () Processing table (MyISAM): tmg1h9h024trp_dictionary_fr_fr_en_gb
+0007.969 () Processing table (MyISAM): tmg1h9h024trp_gettext_en_gb
+0007.987 () Processing table (MyISAM): tmg1h9h024trp_gettext_fr_fr
+0008.145 () Database queries processed: 200 in 7.50 seconds
+0008.253 () Processing table (MyISAM): tmg1h9h024trp_original_meta
+0008.262 () Processing table (MyISAM): tmg1h9h024trp_original_strings
+0008.273 () Processing table (MyISAM): tmg1h9h024wc_admin_note_actions
+0008.484 () Processing table (MyISAM): tmg1h9h024wc_admin_notes
+0008.491 () Processing table (MyISAM): tmg1h9h024wc_customer_lookup
+0008.508 () Processing table (InnoDB): tmg1h9h024wc_download_log
+0008.528 () Processing table (MyISAM): tmg1h9h024wc_order_coupon_lookup
+0008.539 () Processing table (MyISAM): tmg1h9h024wc_order_product_lookup
+0008.547 () Processing table (MyISAM): tmg1h9h024wc_order_stats
+0008.554 () Processing table (MyISAM): tmg1h9h024wc_order_tax_lookup
+0008.566 () Processing table (InnoDB): tmg1h9h024wc_webhooks
+0008.584 () Processing table (InnoDB): tmg1h9h024woocommerce_api_keys
+0009.212 () Processing table (InnoDB): tmg1h9h024woocommerce_attribute_taxonomies
+0009.427 () Processing table (InnoDB): tmg1h9h024woocommerce_downloadable_product_permissions
+0009.651 () Processing table (InnoDB): tmg1h9h024woocommerce_log
+0009.670 () Processing table (InnoDB): tmg1h9h024woocommerce_order_items
+0009.692 () Processing table (InnoDB): tmg1h9h024woocommerce_payment_tokens
+0009.718 () Processing table (InnoDB): tmg1h9h024woocommerce_sessions
+0009.941 () Processing table (InnoDB): tmg1h9h024woocommerce_shipping_zone_locations
+0010.381 () Processing table (InnoDB): tmg1h9h024woocommerce_shipping_zone_methods
+0010.612 () Processing table (InnoDB): tmg1h9h024woocommerce_shipping_zones
+0010.625 () Database queries processed: 250 in 9.98 seconds
+0010.626 () Processing table (InnoDB): tmg1h9h024woocommerce_tax_rate_locations
+0010.642 () Processing table (InnoDB): tmg1h9h024woocommerce_tax_rates
+0010.659 () Processing table (MyISAM): tmg1h9h024wpforms_tasks_meta
+0010.667 () Processing table (MyISAM): tmg1h9h024wprss_logs
+0010.681 () Processing table (MyISAM): tmg1h9h024wsluserscontacts
+0010.688 () Processing table (MyISAM): tmg1h9h024wslusersprofiles
+0010.898 () Processing table (InnoDB): tmg1h9h024yz_bookmark
+0010.925 () Processing table (MyISAM): tmg1h9h024yz_hashtags
+0011.138 () Processing table (MyISAM): tmg1h9h024yz_hashtags_items
+0011.148 () Processing table (MyISAM): tmg1h9h024yz_media
+0011.157 () Processing table (InnoDB): tmg1h9h024yz_reviews
+0011.397 () UpdraftPlus Vault: this site has not been connected - check your settings
+0014.745 () Unlocking database and leaving maintenance mode
+0014.745 () Finished: lines processed: 281 in 14.10 seconds
+0014.745 () Cleaning up rubbish...
+0014.846 () Entity: plugins
+0014.846 () restore_backup(backup_file=backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:62:"/homepages/8/d817576993/htdocs/app817638129/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0014.846 () Unpacking backup... (backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-plugins.zip, 53.7 MB)
+0014.847 () Unzipping backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-plugins.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/594c21e7/ using UpdraftPlus_ZipArchive, starting index 0
+0015.136 () Unzip progress: 2240 out of 13197 files (1.5 KB, plugins/js_composer/assets/lib/bower/flexslider/images/bg_play_pause.png)
+0015.342 () Unzip progress: 3241 out of 13197 files (13.1 MB, plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js)
+0015.545 () Unzip progress: 4242 out of 13197 files (29 MB, plugins/buddypress/bp-activity/classes/class-bp-akismet.php)
+0015.728 () Unzip progress: 5243 out of 13197 files (42.4 MB, plugins/buddypress/bp-themes/bp-default/members/single/groups.php)
+0016.015 () Unzip progress: 6244 out of 13197 files (67.6 MB, plugins/youzer/includes/public/core/mycred/yz-mycred-balance.php)
+0016.362 () Unzip progress: 7245 out of 13197 files (83.5 MB, plugins/the-events-calendar/common/src/resources/css/common-full.min.css)
+0016.531 () Unzip progress: 8246 out of 13197 files (92.8 MB, plugins/the-events-calendar/src/resources/images/tribe-theme/tribe-theme-tooltips.png)
+0016.694 () Unzip progress: 9247 out of 13197 files (101.4 MB, plugins/unyson/framework/extensions/shortcodes/shortcodes/table/static/img/page_builder.png)
+0016.966 () Unzip progress: 10248 out of 13197 files (123.6 MB, plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php)
+0017.132 () Unzip progress: 11249 out of 13197 files (131.8 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/utils/products.js)
+0017.554 () Unzip progress: 12250 out of 13197 files (151 MB, plugins/updraftplus/includes/class-manipulation-functions.php)
+0017.719 () Unzip progress: 13197 out of 13197 files (162.6 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Service/ServiceInterface.php)
+0017.744 () Moving old data: filesystem method / updraft_dir is potentially possible
+0017.744 () Moving old data: can potentially use wp_filesystem method / -old
+0017.744 () Moving old data out of the way...
+0026.465 () Top-level entities being moved: .gitkeep, antispam-bee, js_composer, bbpress, buddypress, buddypress-media, youzer, mailchimp-for-wp, limit-login-attempts-reloaded, woocommerce-admin, index.php, php.ini, the-events-calendar, translatepress-multilingual, unyson, woocommerce, updraftplus, bp-activity-social-share, miniorange-login-openid, feedzy-rss-feeds
+0026.469 () Moving unpacked backup into place...
+0035.628 () Top-level entities being moved: antispam-bee, bbpress, bp-activity-social-share, buddypress, buddypress-media, feedzy-rss-feeds, js_composer, limit-login-attempts-reloaded, mailchimp-for-wp, miniorange-login-openid, the-events-calendar, translatepress-multilingual, unyson, updraftplus, woocommerce, woocommerce-admin, youzer, .gitkeep, php.ini, index.php
+0035.637 () Cleaning up rubbish...
+0035.647 () Entity: themes
+0035.647 () restore_backup(backup_file=backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-themes.zip, type=themes, info=a:2:{s:4:"path";s:61:"/homepages/8/d817576993/htdocs/app817638129/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0035.647 () Unpacking backup... (backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-themes.zip, 10.6 MB)
+0035.647 () Unzipping backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-themes.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/b3154ec1/ using UpdraftPlus_ZipArchive, starting index 0
+0035.841 () Unzip progress: 1002 out of 1455 files (13.9 MB, themes/olympus/images/main-demo.png)
+0035.922 () Unzip progress: 1455 out of 1455 files (19.3 MB, themes/olympus/svg-icons/happy-face-icon.svg)
+0035.926 () Moving old data: filesystem method / updraft_dir is potentially possible
+0035.926 () Moving old data: can potentially use wp_filesystem method / -old
+0035.926 () Moving old data out of the way...
+0036.913 () Top-level entities being moved: .gitkeep, beonepage, olympus, olympus-child, index.php, php.ini
+0036.913 () Moving unpacked backup into place...
+0037.922 () Top-level entities being moved: beonepage, olympus, olympus-child, .gitkeep, php.ini, index.php
+0037.923 () Cleaning up rubbish...
+0038.143 () Entity: uploads
+0038.143 () restore_backup(backup_file=backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:62:"/homepages/8/d817576993/htdocs/app817638129/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0038.143 () Unpacking backup... (backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-uploads.zip, 65 MB)
+0038.143 () Unzipping backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-uploads.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/0d0a0778/ using UpdraftPlus_ZipArchive, starting index 0
+0038.396 () Unzip progress: 1002 out of 1045 files (58.5 MB, uploads/2020/04/building-black-100x100.png)
+0038.424 () Unzip progress: 1045 out of 1045 files (64.9 MB, uploads/2020/03/undraw_for_sale_viax-1.png)
+0038.442 () Moving old data: filesystem method / updraft_dir is potentially possible
+0038.442 () Moving old data: can potentially use wp_filesystem method / -old
+0038.442 () Moving old data out of the way...
+0039.160 () Moving unpacked backup into place...
+0039.864 () Cleaning up rubbish...
+0039.875 () Entity: others
+0039.875 () restore_backup(backup_file=backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-others.zip, type=others, info=a:2:{s:4:"path";s:54:"/homepages/8/d817576993/htdocs/app817638129/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0039.875 () Unpacking backup... (backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-others.zip, 109.2 MB)
+0039.875 () Unzipping backup_2020-04-16-0753_Bojelo_b2db9aa1d24d-others.zip to /homepages/8/d817576993/htdocs/app817638129/wp-content/upgrade/b941d506/ using UpdraftPlus_ZipArchive, starting index 0
+0040.395 () Unzip progress: 92 out of 558 files (103.2 MB, .git/objects/pack/pack-d1c5a5f8accb7f8faa290e4ca8c6f73716bf21c6.pack)
+0040.832 () Unzip progress: 558 out of 558 files (126.9 MB, mu-plugins/1and1-email.php)
+0040.862 () Cleaning up rubbish...
+0042.172 () Restore successful!
+0042.172 () Restore successful
